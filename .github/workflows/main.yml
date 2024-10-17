@@ -1,0 +1,31 @@
+name: Run Automation Script Daily
+
+on:
+  schedule:
+    # 設定每天的 00:00 UTC 執行 (可以根據需求調整時間)
+    - cron: '0 0 * * *'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 檢出儲存庫的最新代碼
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 設置 Python 環境
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12.6'  # 根據你的 Python 版本進行調整
+
+    # 安裝專案的依賴套件
+    - name: Install dependencies
+      run: |
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    # 執行你的 Python 自動化程式
+    - name: Run Automation Script
+      run: |
+        python /Users/yuchingchen/Documents/專題/data/NRT/google_flights_data_nrt_all.py  # 更新為你的自動化腳本路徑
