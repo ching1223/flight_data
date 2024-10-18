@@ -28,4 +28,4 @@ jobs:
     # 執行你的 Python 自動化程式
     - name: Run Automation Script
       run: |
-        python /Users/yuchingchen/Documents/專題/data/NRT/google_flights_data_nrt_all.py  # 更新為你的自動化腳本路徑
+        python ./data/NRT/google_flights_data_nrt_all.py  # 更新為專案中的相對路徑
