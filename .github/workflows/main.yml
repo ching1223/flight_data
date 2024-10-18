@@ -3,11 +3,14 @@ name: Run Automation Script Daily
 on:
   schedule:
     # 設定每天的 12:00 UTC 執行
-    - cron: '30 4 * * *'
+    - cron: '0 12 * * *'
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # 強制使用 Node.js 20
 
 jobs:
   run-script:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 版本
 
     steps:
     # 檢出儲存庫的最新代碼
@@ -37,9 +40,3 @@ jobs:
     - name: Run Automation Script
       run: |
         python ./data/NRT/google_flights_data_nrt_all.py  # 使用專案相對路徑
-      continue-on-error: false  # 確保遇到錯誤時停止工作流程，便於排查錯誤
-
-    # 添加調試 Python 腳本的錯誤信息
-    - name: Check for Python errors
-      run: |
-        echo "Automation script completed"
