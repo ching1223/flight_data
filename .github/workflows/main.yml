@@ -3,7 +3,7 @@ name: Run Automation Script Daily
 on:
   schedule:
     # 設定每天的 12:00 UTC 執行
-    - cron: '0 12 * * *'
+    - cron: '30 4 * * *'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # 強制使用 Node.js 20
