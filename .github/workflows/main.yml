@@ -2,12 +2,15 @@ name: Run Automation Script Daily
 
 on:
   schedule:
-    # 設定每天的 00:00 UTC 執行 (可以根據需求調整時間)
-    - cron: '0 0 * * *'
+    # 設定每天的 12:00 UTC 執行
+    - cron: '30 4 * * *'
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # 強制使用 Node.js 20
 
 jobs:
   run-script:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 版本
 
     steps:
     # 檢出儲存庫的最新代碼
@@ -20,12 +23,20 @@ jobs:
       with:
         python-version: '3.12.6'  # 根據你的 Python 版本進行調整
 
+    # 打印工作目錄和檢查文件列表來調試
+    - name: Print working directory and list files
+      run: |
+        echo "Current directory:"
+        pwd
+        echo "List of files:"
+        ls -al ./data/NRT/
+
     # 安裝專案的依賴套件
     - name: Install dependencies
       run: |
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; else echo "No requirements.txt found"; fi
 
-    # 執行你的 Python 自動化程式
+    # 執行 Python 自動化程式
     - name: Run Automation Script
       run: |
-        python /Users/yuchingchen/Documents/專題/data/NRT/google_flights_data_nrt_all.py  # 更新為你的自動化腳本路徑
+        python ./data/NRT/google_flights_data_nrt_all.py  # 使用專案相對路徑
