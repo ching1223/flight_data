@@ -30,12 +30,12 @@ jobs:
         pwd
         echo "List of files:"
         ls -al ./data/NRT/
-
-    # 安裝專案的依賴套件
+    
     - name: Install dependencies
       run: |
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; else echo "No requirements.txt found"; fi
-
+        echo "Installing dependencies..."
+        pip install --no-cache-dir -r requirements.txt
+    
     # 執行 Python 自動化程式
     - name: Run Automation Script
       run: |
