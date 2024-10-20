@@ -31,6 +31,11 @@ jobs:
         echo "List of files:"
         ls -al ./data/NRT/
 
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
     # 執行 Python 自動化程式
     - name: Run Automation Script
       run: |
