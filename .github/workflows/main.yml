@@ -3,7 +3,7 @@ name: Run Automation Script Daily
 on:
   schedule:
     # 設定每天的 12:00 UTC 執行
-    - cron: '30 4 * * *'
+    - cron: '00 4 * * *'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # 強制使用 Node.js 20
@@ -40,3 +40,11 @@ jobs:
     - name: Run Automation Script
       run: |
         python ./data/NRT/google_flights_data_nrt_all.py  # 使用專案相對路徑
+    
+    # 檢查生成的日誌和結果
+    - name: Check log and output files
+      run: |
+        echo "Logs in ./data/NRT/logs:"
+        ls -al ./data/NRT/logs
+        echo "CSV output in ./data/NRT/data:"
+        ls -al ./data/NRT/data
