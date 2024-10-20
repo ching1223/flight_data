@@ -46,5 +46,5 @@ jobs:
       run: |
         echo "Logs in ./data/NRT/logs:"
         ls -al ./data/NRT/logs
-        echo "CSV output in ./data/NRT/data:"
-        ls -al ./data/NRT/data
+        echo "CSV output in ./data/data:"
+        ls -al ./data/data
