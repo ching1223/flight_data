@@ -33,12 +33,12 @@ def send_discord_notification(message):
 def create_directory_if_not_exists(path):
     if not os.path.exists(path):
         os.makedirs(path)
-
+        
 # 設定日誌文件路徑
-log_dir = './data/NRT'  # 相對路徑
+log_dir = '/home/runner/work/flight_data/flight_data/logs'
 create_directory_if_not_exists(log_dir)
-log_file = os.path.join(log_dir, 'flight_scrape_nrt_all.log')
-logging.basicConfig(filename=log_file, level=logging.INFO)
+log_file_path = os.path.join(log_dir, 'flight_scrape_nrt_all.log')
+logging.basicConfig(filename=log_file_path, level=logging.INFO)
 logging.info(f'Starting the flight data scrape at {datetime.now()}')
 
 # 設置 Selenium 驅動
