@@ -13,6 +13,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from datetime import timedelta
 import time
 import csv
+import os
+import logging
 import re
 
 # Discord Webhook URL
@@ -27,8 +29,16 @@ def send_discord_notification(message):
     else:
         logging.error(f"Failed to send Discord notification: {response.status_code}, {response.text}")
 
-# 設置日誌
-logging.basicConfig(filename='/Users/yuchingchen/Documents/專題/data/NRT/flight_scrape_nrt_all.log', level=logging.INFO)
+# 動態創建目錄
+def create_directory_if_not_exists(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+# 設定日誌文件路徑
+log_dir = './data/NRT/logs'  # 相對路徑
+create_directory_if_not_exists(log_dir)
+log_file = os.path.join(log_dir, 'flight_scrape_nrt_all.log')
+logging.basicConfig(filename=log_file, level=logging.INFO)
 logging.info(f'Starting the flight data scrape at {datetime.now()}')
 
 # 設置 Selenium 驅動
@@ -41,105 +51,80 @@ options.add_argument("--headless")
 service = Service("/opt/homebrew/bin/chromedriver")
 driver = webdriver.Chrome(service=service, options=options)
 
-def scrape_flights(start_date_str, end_date_str):
-    start_date = datetime.strptime(start_date_str, "%Y-%m-%d")
-    end_date = datetime.strptime(end_date_str, "%Y-%m-%d")
-    delta = timedelta(days=1)
+def scrape_flights(target_date_str):
+    target_date = datetime.strptime(target_date_str, "%Y-%m-%d")
     success_count = 0  # 總共抓取的航班數量
+    
+    url = "https://www.google.com/travel/flights/search?tfs=CBwQAhoqEgoyMDI0LTEyLTE5KABqDAgCEggvbS8wZnRreHIMCAISCC9tLzA3ZGZrQAFIAXABggELCP___________wGYAQI&authuser=0"
+    driver.get(url)
 
-    # 迴圈遍歷每個日期
-    current_date = start_date
-    while current_date <= end_date:
-        print(f"正在抓取日期: {current_date.strftime('%Y-%m-%d')}")
-
-        url = "https://www.google.com/travel/flights/search?tfs=CBwQAhoqEgoyMDI0LTEyLTE5KABqDAgCEggvbS8wZnRreHIMCAISCC9tLzA3ZGZrQAFIAXABggELCP___________wGYAQI&authuser=0"
-        driver.get(url)
-
-        # 點擊日期選擇器
-        try:
-            departure_date_picker = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.CLASS_NAME, 'TP4Lpb'))
-            )
-            departure_date_picker.click()
-            print("成功點擊出發日期選擇器")
-        except Exception as e:
-            print("無法找到出發日期選擇器", e)
-
-        time.sleep(3)
-
-        # 選擇具體日期
-        try:
-            specific_date = WebDriverWait(driver, 20).until(
-                EC.element_to_be_clickable((By.XPATH, f"//div[@class='WhDFk Io4vne' and @data-iso='{current_date.strftime('%Y-%m-%d')}']//div[@role='button']"))
-            )
-            specific_date.click()
-            print(f"成功選擇出發日期 {current_date.strftime('%Y 年 %m 月 %d 日')}")
-        except Exception as e:
-            print(f"無法選擇出發日期 {current_date.strftime('%Y-%m-%d')}", e)
-            current_date += delta
-            continue
-        
-        # 點擊 "Done" 按鈕
-        try:
-            done_button = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, '//div[@class="WXaAwc"]//div//button'))
-            )
-            done_button.click()
-            print("成功點擊 'Done' 按鈕")
-        except Exception as e:
-            print("無法找到 'Done' 按鈕", e)
-        
-        time.sleep(5)
-
-        flight_links = WebDriverWait(driver, 20).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "li.pIav2d"))
+    # 點擊日期選擇器
+    try:
+        departure_date_picker = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CLASS_NAME, 'TP4Lpb'))
         )
-        print(f"找到 {len(flight_links)} 個航班")
+        departure_date_picker.click()
+        print("成功點擊出發日期選擇器")
+    except Exception as e:
+        print("無法找到出發日期選擇器", e)
+
+    time.sleep(3)
+
+    # 選擇具體日期
+    try:
+        specific_date = WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, f"//div[@class='WhDFk Io4vne' and @data-iso='{current_date.strftime('%Y-%m-%d')}']//div[@role='button']"))
+        )
+        specific_date.click()
+        print(f"成功選擇出發日期 {current_date.strftime('%Y 年 %m 月 %d 日')}")
+    except Exception as e:
+        print(f"無法選擇出發日期 {current_date.strftime('%Y-%m-%d')}", e)
         
-        # 獲取抓取當天的日期
-        today_date = datetime.now().strftime("%m%d")
+    # 點擊 "Done" 按鈕
+    try:
+        done_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, '//div[@class="WXaAwc"]//div//button'))
+        )
+        done_button.click()
+        print("成功點擊 'Done' 按鈕")
+    except Exception as e:
+        print("無法找到 'Done' 按鈕", e)
+        
+    time.sleep(5)
 
-        # 準備寫入 CSV 檔案
-        with open(f'/Users/yuchingchen/Documents/專題/data/NRT/data/google_flights_data_nrt_{today_date}.csv', 'w', newline='', encoding='utf-8-sig') as csv_file:
-            csv_writer = csv.writer(csv_file)
+    flight_links = WebDriverWait(driver, 20).until(
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, "li.pIav2d"))
+    )
+    print(f"找到 {len(flight_links)} 個航班")
+        
+    # CSV 文件目錄處理
+    output_dir = './data/data'
+    create_directory_if_not_exists(output_dir)
+    csv_file_path = os.path.join(output_dir, f'google_flights_data_nrt.csv')
+    # 準備寫入 CSV 檔案
+    with open(csv_file_path, 'a', newline='', encoding='utf-8-sig') as csv_file:           
+        csv_writer = csv.writer(csv_file)
 
-            # 寫入標題
-            csv_writer.writerow([
-                "出發日期", "出發時間", "出發機場代號", 
-                "抵達時間", "抵達機場代號", "航空公司", 
-                "停靠站數量", "停留時間", "飛行時間", 
-                "是否過夜", "機型", "航班代碼", "艙等", "價格歷史"
-            ])
-
-            # 遍歷並點擊每個航班列表項，打開新頁面
-            for index in range(len(flight_links)):
+        # 寫入標題
+        csv_writer.writerow([
+            "出發日期", "出發時間", "出發機場代號", 
+            "抵達時間", "抵達機場代號", "航空公司", 
+            "停靠站數量", "停留時間", "飛行時間", 
+            "是否過夜", "機型", "航班代碼", "艙等", "價格歷史"
+        ])
+        
+        # 遍歷並點擊每個航班
+        for index in range(len(flight_links)):
+            try:
                 # 重新獲取航班連結，防止 StaleElementReferenceException
                 flight_links = driver.find_elements(By.CSS_SELECTOR, "li.pIav2d")
-                
-                # 檢查是否超出範圍
-                if index >= len(flight_links):
-                    print(f"索引 {index} 超出範圍，停止操作")
-                    break
-                
-                # 點擊
                 flight_links[index].click()
-
-                # 等待新頁面加載
                 time.sleep(10)
-                
-                # 點擊「查看更多」按鈕
-                try:
-                    more_button = driver.find_element(By.XPATH, "//div[@class='i18Ypf']//div[@class='VfPpkd-dgl2Hf-ppHlrf-sM5MNb']//button")
-                    more_button.click()
-                except NoSuchElementException:
-                    print("未找到「查看更多」按鈕")
-        
-                time.sleep(8) # 等待更多內容加載
 
                 # 初始化各個欄位
                 departure_date, departure_time, arrival_time, departure_airport, arrival_airport = "null", "null", "null", "null", "null"
                 airline, layover, layover_time, flight_duration, overnight, aircraft, flight_number, cabin_class = "null", "null", "null", "null", "null", "null", "null", "null"
-                
+
                 # 抓取資料
                 try:
                     # 抓取出發日期
@@ -288,23 +273,32 @@ def scrape_flights(start_date_str, end_date_str):
                 # 等待返回加載完成
                 time.sleep(2)
 
-        # 更新當前日期
-        current_date += delta
+            except Exception as e:
+                print(f"抓取航班 {index} 失敗: {e}")
+                continue  # 繼續執行，忽略失敗
 
     driver.quit()
     return success_count
 
-# 調用函式
-start_date_input = "2024-12-20"
-end_date_input = "2025-02-20"
-success_count = scrape_flights(start_date_input, end_date_input)
+# 獲取今天的日期並加上 60 天
+today = datetime.today()
+target_date = today + timedelta(days=60)
+target_date_str = target_date.strftime("%Y-%m-%d")
+
+# 執行抓取函數
+success_count = scrape_flights(target_date_str)
 
 # 顯示抓取的總航班數量
-print(f"共抓取 {success_count} 個航班")
+logging.info(f"總共抓取了 {success_count} 個航班")
+print(f"總共抓取了 {success_count} 個航班")
 
-# 記錄執行狀態
-with open('/Users/yuchingchen/Documents/專題/data/NRT/execution_status_nrt_all.txt', 'a') as status_file:
+# 更新執行狀態
+status_file_dir = './data/NRT'
+create_directory_if_not_exists(status_file_dir)
+status_file_path = os.path.join(status_file_dir, 'execution_status_nrt.txt')
+
+with open(status_file_path, 'a') as status_file:
     status_file.write(f'Executed on {datetime.now()} - Scraped {success_count} flights\n')
 
-# 發送 Discord 通知
+# 在程式結尾發送 Discord 通知
 send_discord_notification(f"Flight scraping completed at {datetime.now()}. Scraped {success_count} flights.")

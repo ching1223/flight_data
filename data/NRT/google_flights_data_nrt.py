@@ -13,6 +13,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from datetime import timedelta
 import time
 import csv
+import os
+import logging
 import re
 
 # Discord Webhook URL
@@ -30,9 +32,17 @@ def send_discord_notification(message):
     else:
         logging.error(f"Failed to send Discord notification: {response.status_code}, {response.text}")
 
-# 設置日誌
-logging.basicConfig(filename='/Users/yuchingchen/Documents/專題/data/NRT/flight_scrape_nrt.log', level=logging.INFO)
-logging.info(f'Starting the flight data scrape at {datetime.now()}')
+# 動態創建目錄
+def create_directory_if_not_exists(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+# 設定日誌文件路徑
+log_dir = './logs'
+create_directory_if_not_exists(log_dir)  # 確保日誌目錄存在
+log_file = os.path.join(log_dir, 'flight_scrape_nrt.log')
+logging.basicConfig(filename=log_file, level=logging.INFO)
+logging.info('This is an info message')
 
 # 設置 Selenium 驅動
 options = Options()
@@ -53,11 +63,13 @@ print(f"找到 {len(flight_links)} 個航班")
 # 設置一個計數器來記錄抓取成功的航班數量
 success_count = 0
 
-# 獲取當前日期
-current_date = datetime.now().strftime("%Y%m%d")
+# CSV 文件目錄處理
+output_dir = './data/data'
+create_directory_if_not_exists(output_dir)
+csv_file_path = os.path.join(output_dir, f'google_flights_data_nrt.csv')
 
-# 準備寫入 CSV 檔案（覆寫模式）
-with open(f'/Users/yuchingchen/Documents/專題/data/NRT/data/google_flights_data_nrt_{current_date}_1220.csv', 'w', newline='', encoding='utf-8-sig') as csv_file:    
+# 準備寫入 CSV 檔案
+with open(csv_file_path , 'a', newline='', encoding='utf-8-sig') as csv_file:    
     csv_writer = csv.writer(csv_file)
     # 寫入標題
     csv_writer.writerow([
@@ -240,10 +252,16 @@ with open(f'/Users/yuchingchen/Documents/專題/data/NRT/data/google_flights_dat
 driver.quit()
 
 # 顯示抓取的總航班數量
+logging.info(f"總共抓取了 {success_count} 個航班")
 print(f"總共抓取了 {success_count} 個航班")
 
-with open('/Users/yuchingchen/Documents/專題/data/NRT/execution_status_nrt.txt', 'a') as status_file:
+# 更新執行狀態
+status_file_dir = './data/NRT'
+create_directory_if_not_exists(status_file_dir)
+status_file_path = os.path.join(status_file_dir, 'execution_status_nrt.txt')
+
+with open(status_file_path, 'a') as status_file:
     status_file.write(f'Executed on {datetime.now()} - Scraped {success_count} flights\n')
-    
+
 # 在程式結尾發送 Discord 通知
 send_discord_notification(f"Flight scraping completed at {datetime.now()}. Scraped {success_count} flights.")
