@@ -3,7 +3,7 @@ name: Run Automation Script Daily
 on:
   schedule:
     # 設定每天台灣時間的 12:00 AM (UTC+8 對應 UTC 的前一天 16:00)
-    - cron: '0 16 * * *'
+    - cron: '40 12 * * *'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # 強制使用 Node.js 20
