@@ -35,7 +35,7 @@ def create_directory_if_not_exists(path):
         os.makedirs(path)
 
 # 設定日誌文件路徑
-log_dir = './data/NRT/logs'  # 相對路徑
+log_dir = './data/NRT'  # 相對路徑
 create_directory_if_not_exists(log_dir)
 log_file = os.path.join(log_dir, 'flight_scrape_nrt_all.log')
 logging.basicConfig(filename=log_file, level=logging.INFO)
