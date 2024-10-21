@@ -2,8 +2,8 @@ name: Run Python Scripts Automatically in Pairs
 
 on:
   schedule:
-    # 台灣時間每天凌晨12:00執行（UTC時間16:00）
-    - cron: '55 17 * * *'
+    # 台灣時間每天凌晨1:55執行（UTC時間17:55）
+    - cron: '10 18 * * *'
 
 jobs:
   run-scripts:
@@ -22,17 +22,17 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # 這一步使用了 checkout action
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v4  # 使用 Python 的 action
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install selenium requests  # 安裝依賴的步驟，這裡用 `run`
+        pip install selenium requests
 
     - name: Install ChromeDriver
       run: |
@@ -41,8 +41,8 @@ jobs:
         if [ -L /usr/bin/chromedriver ]; then
           sudo rm /usr/bin/chromedriver  # 如果存在符號連結，則刪除
         fi
-        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver  # 創建新的符號連結
-    
+        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
+
     - name: Run script
       run: |
         python ${{ matrix.script }}  # 動態運行 Python 腳本
