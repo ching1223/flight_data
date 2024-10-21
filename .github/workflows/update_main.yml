@@ -3,7 +3,7 @@ name: Run Automation Script Daily
 on:
   schedule:
     # 設定每天台灣時間的 12:00 AM (UTC+8 對應 UTC 的前一天 16:00)
-    - cron: '50 13 * * *'
+    - cron: '0 6 * * *'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # 強制使用 Node.js 20
@@ -29,7 +29,7 @@ jobs:
         echo "Current directory:"
         pwd
         echo "List of files:"
-        ls -al ./data/NRT/
+        ls -al ./專題/code/tokyo/
 
     - name: Install dependencies
       run: |
@@ -39,4 +39,4 @@ jobs:
     # 執行 Python 自動化程式
     - name: Run Automation Script
       run: |
-        python ./data/NRT/google_flights_data_nrt_all.py  # 使用專案相對路徑
+        python ./專題/code/tokyo/tokyo.py  # 使用專案相對路徑
