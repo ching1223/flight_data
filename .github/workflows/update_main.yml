@@ -3,7 +3,7 @@ name: Run Python Scripts Automatically in Pairs
 on:
   schedule:
     # 台灣時間每天凌晨12:00執行（UTC時間16:00）
-    - cron: '35 17 * * *'
+    - cron: '55 17 * * *'
 
 jobs:
   run-scripts:
