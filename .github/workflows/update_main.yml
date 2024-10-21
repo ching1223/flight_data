@@ -3,7 +3,7 @@ name: Run Python Scripts Automatically in Pairs
 on:
   schedule:
     # 台灣時間每天凌晨12:00執行（UTC時間16:00）
-    - cron: '0 17 * * *'
+    - cron: '35 17 * * *'
 
 jobs:
   run-scripts:
@@ -40,6 +40,7 @@ jobs:
         sudo apt-get install -y chromium-chromedriver
         sudo rm /usr/bin/chromedriver || true  # 刪除已存在的 chromedriver 符號連結（如果存在）
         sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver  # 重新創建符號連結
-        - name: Run script
-          run: |
-            python ${{ matrix.script }}  # 動態運行 Python 腳本
+    
+    - name: Run script
+      run: |
+        python ${{ matrix.script }}  # 動態運行 Python 腳本
