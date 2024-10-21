@@ -38,8 +38,8 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y chromium-chromedriver
-        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver  # 安裝 chromedriver
-
-    - name: Run script
-      run: |
-        python ${{ matrix.script }}  # 動態運行 Python 腳本
+        sudo rm /usr/bin/chromedriver || true  # 刪除已存在的 chromedriver 符號連結（如果存在）
+        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver  # 重新創建符號連結
+        - name: Run script
+          run: |
+            python ${{ matrix.script }}  # 動態運行 Python 腳本
