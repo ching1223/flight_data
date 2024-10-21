@@ -1,42 +1,44 @@
-name: Run Automation Script Daily
+name: Run Python Scripts Automatically in Pairs
 
 on:
   schedule:
-    # 設定每天台灣時間的 12:00 AM (UTC+8 對應 UTC 的前一天 16:00)
-    - cron: '0 6 * * *'
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # 強制使用 Node.js 20
+    # 台灣時間每天凌晨12:00執行（UTC時間16:00）
+    - cron: '0 18 * * *'
 
 jobs:
-  run-script:
-    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 版本
+  run-scripts:
+    runs-on: ubuntu-latest
+
+    strategy:
+      max-parallel: 2  # 一次最多執行兩個腳本
+      matrix:
+        script:
+          - 'code/Tokyo/tokyo.py'
+          - 'code/Sydney/sydney.py'
+          - 'code/HongKong/hongkong.py'
+          - 'code/Losangeles/losangeles.py'
+          - 'code/London/london.py'
+          - 'code/Newyork/newyork.py'
 
     steps:
-    # 檢出儲存庫的最新代碼
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    # 設置 Python 環境
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.12.6'  # 根據你的 Python 版本進行調整
-
-    # 打印工作目錄和檢查文件列表來調試
-    - name: Print working directory and list files
-      run: |
-        echo "Current directory:"
-        pwd
-        echo "List of files:"
-        ls -al ./專題/code/tokyo/
+        python-version: '3.x'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install selenium requests
 
-    # 執行 Python 自動化程式
-    - name: Run Automation Script
+    - name: Install ChromeDriver
       run: |
-        python ./專題/code/tokyo/tokyo.py  # 使用專案相對路徑
+        sudo apt-get update
+        sudo apt-get install -y chromium-chromedriver
+        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
+
+    - name: Run script
+     
