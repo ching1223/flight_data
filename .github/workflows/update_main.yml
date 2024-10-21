@@ -38,8 +38,10 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y chromium-chromedriver
-        sudo rm /usr/bin/chromedriver || true  # 刪除已存在的 chromedriver 符號連結（如果存在）
-        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver  # 重新創建符號連結
+        if [ -L /usr/bin/chromedriver ]; then
+          sudo rm /usr/bin/chromedriver  # 如果存在符號連結，則刪除
+        fi
+        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver  # 創建新的符號連結
     
     - name: Run script
       run: |
