@@ -48,7 +48,7 @@ options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-gpu")
 options.add_argument("--disable-software-rasterizer")
 options.add_argument("--headless")
-service = Service("/opt/homebrew/bin/chromedriver")
+service = Service("/usr/bin/chromedriver")
 driver = webdriver.Chrome(service=service, options=options)
 
 def scrape_flights(start_date_str, end_date_str):
