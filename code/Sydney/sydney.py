@@ -269,6 +269,7 @@ today_str = datetime.now().strftime("%Y-%m-%d")
 start_date_input, end_date_input = calculate_dates(today_str)
 
 try:
+    success_count = 0  # 初始化 success_count
     # 調用函式
     success_count = scrape_flights(start_date_input, end_date_input)
     # 發送成功通知
@@ -276,6 +277,7 @@ try:
 except Exception as e:
     # 發送錯誤通知
     send_discord_notification(f"航班抓取失敗: {e}")
+    success_count = 0  # 確保異常時 success_count 也被初始化
 
 # 顯示抓取的總航班數量
 print(f"共抓取 {success_count} 個航班，日期範圍: {start_date_input} 到 {end_date_input}")
