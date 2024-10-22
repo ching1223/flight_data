@@ -3,7 +3,7 @@ name: Run Python Scripts Automatically in Pairs
 on:
   schedule:
     # 台灣時間每天凌晨1:55執行（UTC時間17:55）
-    - cron: '30 5 * * *'
+    - cron: '30 6 * * *'
 
 jobs:
   run-scripts:
@@ -16,7 +16,7 @@ jobs:
           - 'code/Tokyo/tokyo.py'
           - 'code/Sydney/sydney.py'
           - 'code/HongKong/hongkong.py'
-          - 'code/Los Angeles/losangeles.py'
+          - 'code/LosAngeles/losangeles.py'
           - 'code/London/london.py'
           - 'code/Newyork/newyork.py'
 
