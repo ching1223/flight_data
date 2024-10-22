@@ -3,7 +3,7 @@ name: Run Python Scripts Automatically in Pairs
 on:
   schedule:
     # 台灣時間每天凌晨1:55執行（UTC時間17:55）
-    - cron: '0 19 * * *'
+    - cron: '10 4 * * *'
 
 jobs:
   run-scripts:
@@ -37,11 +37,14 @@ jobs:
     - name: Install ChromeDriver
       run: |
         sudo apt-get update
-        sudo apt-get install -y chromium-chromedriver
+        sudo apt-get install --reinstall -y chromium-chromedriver  # 強制重新安裝 chromedriver
         if [ -L /usr/bin/chromedriver ]; then
           sudo rm /usr/bin/chromedriver  # 如果存在符號連結，則刪除
         fi
-        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
+        sudo ln -sf /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver || true  # 強制創建新的符號連結
+
+    - name: Set ChromeDriver Path
+      run: echo "CHROMEWEBDRIVER=/usr/bin" >> $GITHUB_ENV  # 設置環境變量
 
     - name: Run script
       run: |
