@@ -13,6 +13,9 @@ import time
 import os
 import csv
 import re
+import locale
+
+locale.setlocale(locale.LC_TIME, 'zh_TW.UTF-8')
 
 # Discord Webhook URL
 WEBHOOK_URL = "https://discord.com/api/webhooks/1295434884361228450/zwTbBwZK3hryiEqFiCa6HWGXzZtWHRldTizl4BUNyZcw_0IHb94kbmikoKwOeFObbGBk"

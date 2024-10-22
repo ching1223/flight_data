@@ -2,7 +2,7 @@ name: Run Python Scripts Automatically in Pairs
 
 on:
   schedule:
-    # 台灣時間每天凌晨 00:00 執行
+    # 台灣時間每天凌晨1:55執行（UTC時間17:55）
     - cron: '0 16 * * *'
 
 jobs:
@@ -35,19 +35,19 @@ jobs:
       with:
         python-version: '3.x'
 
+    - name: Install Homebrew
+      run: |
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+    - name: Install ChromeDriver with Homebrew
+      run: |
+        brew install --cask chromedriver
+        sudo ln -sf /usr/local/bin/chromedriver /usr/bin/chromedriver  # 創建符號連結
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install selenium requests
-
-    - name: Install ChromeDriver
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y --no-install-recommends \
-            chromium-browser \
-            chromium-chromedriver
-        sudo rm -f /usr/bin/chromedriver  # 移除現有的符號連結
-        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
 
     - name: Set ChromeDriver Path
       run: echo "CHROMEWEBDRIVER=/usr/bin" >> $GITHUB_ENV  # 設置環境變量
@@ -56,10 +56,10 @@ jobs:
       run: |
         python ${{ matrix.script }}  # 動態運行 Python 腳本
 
-    - name: Commit results to GitHub
+    - name: Commit CSV files to GitHub
       run: |
-        git config --global user.name 'GitHub Actions Bot'
-        git config --global user.email 'actions@github.com'
-        git add data/
-        git commit -m "Auto-commit flight data results"
+        git config --global user.name "Your Name"
+        git config --global user.email "your-email@example.com"
+        git add data/*.csv
+        git commit -m "Automated flight data update"
         git push
