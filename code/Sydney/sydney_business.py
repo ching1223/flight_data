@@ -10,6 +10,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import os
 import csv
 import re
 
@@ -60,7 +61,7 @@ def scrape_flights(start_date_str, end_date_str):
     while current_date <= end_date:
         print(f"正在抓取日期: {current_date.strftime('%Y-%m-%d')}")
 
-        url = "https://www.google.com/travel/flights/search?tfs=CBwQAholEgoyMDI1LTAxLTE5KAFqDAgCEggvbS8wZnRreHIHCAESA1NZREABSANwAYIBCwj___________8BmAEC&tfu=EgIIBSIA&authuser=0"
+        url = "https://www.google.com/travel/flights/search?tfs=CBwQAholEgoyMDI1LTAxLTE5KAFqDAgCEggvbS8wZnRreHIHCAESA1NZREABSANwAYIBCwj___________8BmAEC&tfu=EgQIBRABIgA&authuser=0"
         driver.get(url)
 
         # 點擊日期選擇器
@@ -124,8 +125,13 @@ def scrape_flights(start_date_str, end_date_str):
                        
         today_date = datetime.now().strftime("%m%d")
         
+        # 確保 'data/' 目錄存在
+        output_directory = 'data'
+        if not os.path.exists(output_directory):
+            os.makedirs(output_directory)
+        
         # 準備寫入 CSV 檔案
-        with open(f'data/sydney_business_{today_date}.csv', 'a', newline='', encoding='utf-8-sig') as csv_file:
+        with open(f'{output_directory}/sydney_business_{today_date}.csv', 'a', newline='', encoding='utf-8-sig') as csv_file:
             csv_writer = csv.writer(csv_file)
 
             # 寫入標題

@@ -10,6 +10,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import os
 import csv
 import re
 
@@ -126,8 +127,13 @@ def scrape_flights(start_date_str, end_date_str):
                        
         today_date = datetime.now().strftime("%m%d")
         
+        # 確保 'data/' 目錄存在
+        output_directory = 'data'
+        if not os.path.exists(output_directory):
+            os.makedirs(output_directory)
+        
         # 準備寫入 CSV 檔案
-        with open(f'data/hongkong_{today_date}.csv', 'a', newline='', encoding='utf-8-sig') as csv_file:
+        with open(f'{output_directory}/hongkong_{today_date}.csv', 'a', newline='', encoding='utf-8-sig') as csv_file:
             csv_writer = csv.writer(csv_file)
 
             # 寫入標題

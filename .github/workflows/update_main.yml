@@ -3,7 +3,7 @@ name: Run Python Scripts Automatically in Pairs
 on:
   schedule:
     # 台灣時間每天凌晨1:55執行（UTC時間17:55）
-    - cron: '30 7 * * *'
+    - cron: '55 17 * * *'
 
 jobs:
   run-scripts:
@@ -23,8 +23,8 @@ jobs:
           - 'code/LosAngeles/losangeles_business.py'
           - 'code/London/london.py'
           - 'code/London/london_business.py'
-          - 'code/Newyork/newyork.py'
-          - 'code/Newyork/newyork_business.py'
+          - 'code/NewYork/newyork.py'
+          - 'code/NewYork/newyork_business.py'
 
     steps:
     - name: Checkout repository
@@ -43,7 +43,7 @@ jobs:
     - name: Install ChromeDriver
       run: |
         sudo apt-get update
-        sudo apt-get install --reinstall -y chromium-chromedriver  # 強制重新安裝 chromedriver
+        sudo apt-get install --reinstall -y chromium-chromedriver
         if [ -L /usr/bin/chromedriver ]; then
           sudo rm /usr/bin/chromedriver  # 如果存在符號連結，則刪除
         fi
@@ -55,3 +55,9 @@ jobs:
     - name: Run script
       run: |
         python ${{ matrix.script }}  # 動態運行 Python 腳本
+
+    - name: Upload CSV as artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: flight-data
+        path: data/*.csv  # 上傳所有生成的 CSV 文件
