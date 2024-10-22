@@ -1,0 +1,64 @@
+﻿出發日期,出發時間,出發機場代號,抵達時間,抵達機場代號,航空公司,停靠站數量,停留時間,飛行時間,是否過夜,機型,航班代碼,艙等,價格
+2025-01-20 Monday,Departure time: 12:50 PM.,TPE,Arrival time: 4:50 PM.,NRT,Jetstar,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A320,GK 14,Economy,$203
+2025-01-20 Monday,Departure time: 2:25 AM.,TPE,Arrival time: 6:30 AM.,NRT,Peach Aviation,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,MM 620,Economy,$211
+2025-01-20 Monday,Departure time: 2:50 PM.,TPE,Arrival time: 7:00 PM.,NRT,Scoot,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,TR 874,Economy,$219
+2025-01-20 Monday,Departure time: 2:55 PM.,TPE,Arrival time: 7:00 PM.,NRT,Tigerair Taiwan,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,IT 700,Economy,$222
+2025-01-20 Monday,Departure time: 2:20 AM.,TPE,Arrival time: 6:25 AM.,NRT,Jetstar,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,GK 12,Economy,$184
+2025-01-20 Monday,Departure time: 6:40 AM.,TPE,Arrival time: 10:45 AM.,NRT,Scoot,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,TR 898,Economy,$219
+2025-01-20 Monday,Departure time: 12:10 AM.,TPE,Arrival time: 4:00 AM.,HND,Tigerair Taiwan,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,IT 216,Economy,$222
+2025-01-20 Monday,Departure time: 4:00 PM.,TPE,Arrival time: 8:05 PM.,NRT,Peach Aviation,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,MM 624,Economy,$233
+2025-01-20 Monday,Departure time: 1:30 PM.,TPE,Arrival time: 5:30 PM.,NRT,Tigerair Taiwan,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,IT 202,Economy,$266
+2025-01-20 Monday,Departure time: 8:55 PM.,TPE,"Arrival time: 12:55 AM on  Tuesday, January 21.",HND,Peach Aviation,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,MM 860,Economy,$280
+2025-01-20 Monday,Departure time: 12:50 PM.,TPE,Arrival time: 4:50 PM.,NRT,Cathay Pacific,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,CX 450,Economy,$372
+2025-01-20 Monday,Departure time: 7:55 AM.,TPE,Arrival time: 12:00 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,BR 184,Economy,$375
+2025-01-20 Monday,Departure time: 8:50 AM.,TPE,Arrival time: 12:55 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,BR 198,Economy,$375
+2025-01-20 Monday,Departure time: 3:20 PM.,TPE,Arrival time: 7:20 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,BR 196,Economy,$375
+2025-01-20 Monday,Departure time: 7:15 AM.,TSA,Arrival time: 11:05 AM.,HND,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,BR 192,Economy,$395
+2025-01-20 Monday,Departure time: 10:15 AM.,TPE,Arrival time: 2:15 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,JX 802,Economy,$421
+2025-01-20 Monday,Departure time: 12:35 PM.,TPE,Arrival time: 4:35 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,CI 104,Economy,$423
+2025-01-20 Monday,Departure time: 2:35 PM.,TPE,Arrival time: 6:40 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,CI 108,Economy,$432
+2025-01-20 Monday,Departure time: 9:30 AM.,TPE,Arrival time: 1:30 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,CI 100,Economy,$442
+2025-01-20 Monday,Departure time: 1:30 PM.,TSA,Arrival time: 5:30 PM.,HND,ANA,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,NH 852,Economy,$465
+2025-01-20 Monday,Departure time: 4:50 PM.,TSA,Arrival time: 8:40 PM.,HND,ANA,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,NH 854,Economy,$465
+2025-01-20 Monday,Departure time: 9:00 AM.,TSA,Arrival time: 12:50 PM.,HND,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,CI 220,Economy,$465
+2025-01-20 Monday,Departure time: 1:25 PM.,TPE,Arrival time: 5:30 PM.,NRT,JAL,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,JL 8664,Economy,$466
+2025-01-20 Monday,Departure time: 6:25 PM.,TSA,Arrival time: 10:15 PM.,HND,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,CI 222,Economy,$471
+2025-01-20 Monday,Departure time: 3:35 PM.,TSA,Arrival time: 7:25 PM.,HND,JAL,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,JL 98,Economy,$482
+2025-01-20 Monday,Departure time: 4:25 PM.,TSA,Arrival time: 8:20 PM.,HND,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,BR 190,Economy,$482
+2025-01-20 Monday,Departure time: 10:40 AM.,TPE,Arrival time: 2:55 PM.,NRT,Peach Aviation,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,MM 622,Economy,$501
+2025-01-20 Monday,Departure time: 9:30 AM.,TSA,Arrival time: 1:20 PM.,HND,JAL,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,JL 96,Economy,$608
+2025-01-20 Monday,Departure time: 8:30 AM.,TPE,Arrival time: 12:30 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,JX 800,Business Class,$664
+2025-01-20 Monday,Departure time: 3:00 PM.,TPE,Arrival time: 7:00 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,JX 804,Business Class,$664
+2025-01-20 Monday,Departure time: 10:35 AM.,TPE,Arrival time: 2:40 PM.,NRT,JAL,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320,JL 802,Economy,$761
+出發日期,出發時間,出發機場代號,抵達時間,抵達機場代號,航空公司,停靠站數量,停留時間,飛行時間,是否過夜,機型,航班代碼,艙等,價格
+2025-01-21 Tuesday,Departure time: 8:55 PM.,TPE,"Arrival time: 12:55 AM on  Wednesday, January 22.",HND,Peach Aviation,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A320neo,MM 860,Economy,$251
+2025-01-21 Tuesday,Departure time: 12:50 PM.,TPE,Arrival time: 4:50 PM.,NRT,Jetstar,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A320neo,GK 14,Economy,$297
+2025-01-21 Tuesday,Departure time: 2:50 PM.,TPE,Arrival time: 7:00 PM.,NRT,Scoot,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A320neo,TR 874,Economy,$347
+2025-01-21 Tuesday,Departure time: 12:10 PM.,TPE,Arrival time: 4:15 PM.,NRT,Thai Lion Air,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A320neo,SL 394,Economy,$372
+2025-01-21 Tuesday,Departure time: 2:20 AM.,TPE,Arrival time: 6:25 AM.,NRT,Jetstar,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,GK 12,Economy,$297
+2025-01-21 Tuesday,Departure time: 4:00 PM.,TPE,Arrival time: 8:05 PM.,NRT,Peach Aviation,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,MM 624,Economy,$373
+2025-01-21 Tuesday,Departure time: 3:35 PM.,TPE,Arrival time: 7:35 PM.,NRT,Tigerair Taiwan,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,IT 202,Economy,$391
+2025-01-21 Tuesday,Departure time: 2:25 AM.,TPE,Arrival time: 6:30 AM.,NRT,Peach Aviation,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,MM 620,Economy,$435
+2025-01-21 Tuesday,Departure time: 6:40 AM.,TPE,Arrival time: 10:45 AM.,NRT,Scoot,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,TR 898,Economy,$456
+2025-01-21 Tuesday,Departure time: 12:50 PM.,TPE,Arrival time: 4:50 PM.,NRT,Cathay Pacific,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,CX 450,Economy,$458
+2025-01-21 Tuesday,Departure time: 6:25 PM.,TSA,Arrival time: 10:15 PM.,HND,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,CI 222,Economy,$471
+2025-01-21 Tuesday,Departure time: 12:10 AM.,TPE,Arrival time: 4:00 AM.,HND,Tigerair Taiwan,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,IT 216,Economy,$491
+2025-01-21 Tuesday,Departure time: 10:40 AM.,TPE,Arrival time: 2:55 PM.,NRT,Peach Aviation,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,MM 622,Economy,$501
+2025-01-21 Tuesday,Departure time: 4:25 PM.,TSA,Arrival time: 8:20 PM.,HND,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,BR 190,Economy,$539
+2025-01-21 Tuesday,Departure time: 4:50 PM.,TSA,Arrival time: 8:40 PM.,HND,ANA,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,NH 854,Economy,$585
+2025-01-21 Tuesday,Departure time: 1:25 PM.,TPE,Arrival time: 5:30 PM.,NRT,JAL,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,JL 8664,Economy,$592
+2025-01-21 Tuesday,Departure time: 2:35 PM.,TPE,Arrival time: 6:40 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,CI 108,Economy,$595
+2025-01-21 Tuesday,Departure time: 3:20 PM.,TPE,Arrival time: 7:20 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,BR 196,Economy,$597
+2025-01-21 Tuesday,Departure time: 3:35 PM.,TSA,Arrival time: 7:25 PM.,HND,JAL,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,JL 98,Economy,$608
+2025-01-21 Tuesday,Departure time: 1:30 PM.,TSA,Arrival time: 5:30 PM.,HND,ANA,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,NH 852,Economy,$646
+2025-01-21 Tuesday,Departure time: 10:15 AM.,TPE,Arrival time: 2:15 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,JX 802,Economy,$677
+2025-01-21 Tuesday,Departure time: 10:35 AM.,TPE,Arrival time: 2:40 PM.,NRT,JAL,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,JL 802,Economy,$687
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TPE,Arrival time: 1:30 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,CI 100,Economy,$699
+2025-01-21 Tuesday,Departure time: 12:35 PM.,TPE,Arrival time: 4:35 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,CI 104,Economy,$699
+2025-01-21 Tuesday,Departure time: 7:55 AM.,TPE,Arrival time: 12:00 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,BR 184,Economy,$702
+2025-01-21 Tuesday,Departure time: 8:50 AM.,TPE,Arrival time: 12:55 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,BR 198,Economy,$702
+2025-01-21 Tuesday,Departure time: 9:00 AM.,TSA,Arrival time: 12:50 PM.,HND,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,CI 220,Economy,$804
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 11:05 AM.,HND,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,BR 192,Economy,$807
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TSA,Arrival time: 1:20 PM.,HND,JAL,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,JL 96,Economy,$925
+2025-01-21 Tuesday,Departure time: 8:30 AM.,TPE,Arrival time: 12:30 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,JX 800,Economy,"$1,283"
+2025-01-21 Tuesday,Departure time: 3:00 PM.,TPE,Arrival time: 7:00 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A320neo,JX 804,Economy,"$1,283"

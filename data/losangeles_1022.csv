@@ -1,0 +1,428 @@
+﻿出發日期,出發時間,出發機場代號,抵達時間,抵達機場代號,航空公司,停靠站數量,停留時間,飛行時間,是否過夜,機型,航班代碼,艙等,價格
+2025-01-20 Monday,Departure time: 11:40 PM.,TPE,Arrival time: 7:00 PM.,LAX,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A350,JX 2,Economy,$936
+2025-01-20 Monday,Departure time: 7:40 PM.,TPE,Arrival time: 3:00 PM.,LAX,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Boeing 777,BR 12,Economy,$941
+2025-01-20 Monday,Departure time: 11:55 PM.,TPE,Arrival time: 7:15 PM.,LAX,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Boeing 777,BR 16,Economy,$941
+2025-01-20 Monday,Departure time: 11:20 AM.,TPE,Arrival time: 6:50 AM.,LAX,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Boeing 777,BR 6,Economy,$752
+2025-01-20 Monday,Departure time: 11:50 PM.,TPE,Arrival time: 7:35 PM.,LAX,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Boeing 777,CI 8,Economy,$929
+2025-01-20 Monday,Departure time: 3:35 PM.,TSA,Arrival time: 1:20 PM.,LAX,JAL American,1 stop,1 hr,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 98 AA 26,Business Class Business Class,"$5,671"
+2025-01-20 Monday,Departure time: 11:30 AM.,TPE,Arrival time: 9:49 AM.,BUR,EVA Air United,1 stop,1 hr 55 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 8 UA 1965,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 11:30 AM.,TPE,Arrival time: 9:54 AM.,BUR,EVA Air Alaska,1 stop,2 hr 10 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 8 AS 3333,Economy Economy,$816
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 9:49 AM.,BUR,United United,1 stop,1 hr 50 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,UA 872 UA 1965,Economy Economy,$871
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 9:54 AM.,BUR,United Alaska,1 stop,2 hr 5 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,UA 872 AS 3333,Premium Economy Economy,"$2,177"
+2025-01-20 Monday,Departure time: 11:30 PM.,TPE,Arrival time: 10:15 PM.,BUR,EVA Air United,1 stop,2 hr 24 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 28 UA 1300,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 7:15 AM.,TSA,Arrival time: 6:00 AM.,LAX,EVA Air American,1 stop,2 hr,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 AA 170,Economy Premium Economy,"$6,291"
+2025-01-20 Monday,Departure time: 3:50 PM.,TPE,Arrival time: 2:44 PM.,BUR,United United,1 stop,2 hr 5 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,UA 852 UA 1428,Economy Economy,"$1,251"
+2025-01-20 Monday,Departure time: 10:45 AM.,TPE,Arrival time: 9:55 AM.,LAX,Delta Delta,1 stop,1 hr 5 min,未找到飛行時間,Yes,Airbus A330-900neo Boeing 737,DL 68 DL 1628,Economy Economy,$596
+2025-01-20 Monday,Departure time: 1:30 PM.,TSA,Arrival time: 12:40 PM.,LAX,ANA United,1 stop,2 hr 10 min,未找到飛行時間,Yes,Boeing 787 Boeing 787-10,NH 852 UA 38,Economy Economy,"$1,093"
+2025-01-20 Monday,Departure time: 10:35 AM.,TPE,Arrival time: 9:50 AM.,LAX,JAL JAL,1 stop,2 hr 30 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 802 JL 62,Business Class Business Class,"$3,054"
+2025-01-20 Monday,Departure time: 12:05 AM.,TPE,"Arrival time: 11:21 PM on  Sunday, January 19.",LAX,STARLUX Airlines Alaska,1 stop,3 hr 3 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 2275,Economy Economy,"$1,136"
+2025-01-20 Monday,Departure time: 6:25 PM.,TSA,Arrival time: 5:50 PM.,LAX,China Airlines ANA,1 stop,2 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 222 NH 106,Business Class Economy,"$2,525"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 10:38 AM.,LAX,United United,1 stop,2 hr 30 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 9 Passenger,UA 872 UA 1842,Economy Economy,$992
+2025-01-20 Monday,Departure time: 11:45 PM.,TPE,Arrival time: 11:21 PM.,LAX,China Airlines Alaska,1 stop,3 hr 3 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,CI 4 AS 2275,Economy Economy,$818
+2025-01-20 Monday,Departure time: 7:50 PM.,TPE,Arrival time: 7:28 PM.,BUR,EVA Air United,1 stop,3 hr 15 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 18 UA 5927,Economy Economy,"$1,523"
+2025-01-20 Monday,Departure time: 11:35 PM.,TPE,Arrival time: 11:14 PM.,LAX,China Airlines Alaska,1 stop,2 hr 14 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,CI 22 AS 967,Economy Economy,$723
+2025-01-20 Monday,Departure time: 9:15 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,1 hr,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 479 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 9:30 AM.,TSA,Arrival time: 9:15 AM.,LAX,JAL JAL,1 stop,3 hr 5 min,未找到飛行時間,Yes,Boeing 787 Boeing 777,JL 96 JL 16,Economy Economy,$983
+2025-01-20 Monday,Departure time: 1:20 PM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,1 hr 15 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 495 CX 882,Economy Economy,$688
+2025-01-20 Monday,Departure time: 11:55 PM.,TPE,Arrival time: 11:55 PM.,LAX,EVA Air Air Canada,1 stop,2 hr 20 min,未找到飛行時間,Yes,Boeing 777 Airbus A321,BR 10 AC 560,Economy Economy,"$1,330"
+2025-01-20 Monday,Departure time: 9:00 AM.,TSA,Arrival time: 9:15 AM.,LAX,China Airlines JAL,1 stop,3 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 220 JL 16,Economy Premium Economy,"$2,091"
+2025-01-20 Monday,Departure time: 9:30 AM.,TSA,Arrival time: 9:50 AM.,LAX,JAL JAL,1 stop,3 hr 50 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 JL 62,Economy Economy,$994
+2025-01-20 Monday,Departure time: 8:45 AM.,TPE,Arrival time: 9:05 AM.,LAX,China Airlines China Eastern,1 stop,2 hr 20 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CI 501 MU 583,Economy Economy,"$1,113"
+2025-01-20 Monday,Departure time: 9:30 AM.,TPE,Arrival time: 9:50 AM.,LAX,China Airlines JAL,1 stop,3 hr 40 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 100 JL 62,Economy Premium Economy,"$2,094"
+2025-01-20 Monday,Departure time: 9:30 AM.,TSA,Arrival time: 9:50 AM.,LAX,JAL ANA,1 stop,3 hr 40 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 NH 6,Business Class Premium Economy,"$2,711"
+2025-01-20 Monday,Departure time: 11:35 PM.,TPE,Arrival time: 11:59 PM.,LAX,China Airlines Alaska,1 stop,3 hr 1 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,CI 22 AS 1292,Economy Economy,$723
+2025-01-20 Monday,Departure time: 12:50 PM.,TPE,Arrival time: 1:20 PM.,LAX,Jetstar American,1 stop,3 hr 35 min,未找到飛行時間,Yes,Airbus A320 Boeing 787,GK 14 AA 26,Economy Economy,"$1,128"
+2025-01-20 Monday,Departure time: 1:30 PM.,TSA,Arrival time: 2:05 PM.,LAX,ANA ANA,1 stop,3 hr 35 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 852 NH 126,Economy Economy,"$1,100"
+2025-01-20 Monday,Departure time: 7:55 AM.,TPE,Arrival time: 8:30 AM.,LAX,China Airlines Korean Air,1 stop,3 hr 10 min,未找到飛行時間,Yes,Airbus A330 Airbus A380,CI 160 KE 17,Economy Economy,"$1,133"
+2025-01-20 Monday,Departure time: 11:30 PM.,TPE,"Arrival time: 12:06 AM on  Tuesday, January 21.",LAX,EVA Air United,1 stop,4 hr 5 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,BR 28 UA 2681,Economy Economy,"$3,288"
+2025-01-20 Monday,Departure time: 8:15 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,2 hr 5 min,未找到飛行時間,Yes,Airbus A350 Boeing 777,CX 531 CX 880,Economy Economy,$688
+2025-01-20 Monday,Departure time: 11:30 AM.,TPE,Arrival time: 12:10 PM.,BUR,EVA Air United,1 stop,4 hr 17 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 8 UA 2441,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 8:20 AM.,TPE,Arrival time: 9:05 AM.,LAX,Cathay Pacific Cathay Pacific,1 stop,1 hr 55 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 407 CX 884,Economy Economy,$688
+2025-01-20 Monday,Departure time: 9:00 AM.,TSA,Arrival time: 9:50 AM.,LAX,China Airlines ANA,1 stop,4 hr 10 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 220 NH 6,Business Class Economy,"$2,536"
+2025-01-20 Monday,Departure time: 12:25 PM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,2 hr 10 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 461 CX 882,Economy Economy,$688
+2025-01-20 Monday,Departure time: 7:50 PM.,TPE,Arrival time: 8:49 PM.,BUR,EVA Air Alaska,1 stop,4 hr 46 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 18 AS 3354,Economy Economy,"$1,035"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 12:10 PM.,BUR,United United,1 stop,4 hr 12 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,UA 872 UA 2441,Economy Economy,$871
+2025-01-20 Monday,Departure time: 4:50 PM.,TSA,Arrival time: 5:50 PM.,LAX,ANA ANA,1 stop,4 hr 10 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 854 NH 106,Economy Economy,$931
+2025-01-20 Monday,Departure time: 1:40 PM.,TPE,Arrival time: 2:50 PM.,LAX,Asiana Asiana,1 stop,3 hr 40 min,未找到飛行時間,Yes,Airbus A380 Airbus A350,OZ 712 OZ 204,Economy Economy,"$1,044"
+2025-01-20 Monday,Departure time: 9:45 AM.,TPE,Arrival time: 10:55 AM.,LAX,China Airlines JAL,1 stop,4 hr 30 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 152 JL 60,Economy Economy,"$1,122"
+2025-01-20 Monday,Departure time: 9:30 AM.,TSA,Arrival time: 10:40 AM.,LAX,JAL United,1 stop,4 hr 25 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 UA 33,Business Class Premium Economy,"$2,711"
+2025-01-20 Monday,Departure time: 7:40 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,2 hr 40 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 451 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 12:25 PM.,TPE,Arrival time: 1:40 PM.,LAX,Korean Air Korean Air,1 stop,3 hr 50 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 747,KE 186 KE 11,Economy Economy,$969
+2025-01-20 Monday,Departure time: 7:30 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,2 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 565 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 4:25 PM.,TSA,Arrival time: 5:50 PM.,LAX,EVA Air ANA,1 stop,4 hr 30 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 190 NH 106,Economy Premium Economy,"$2,119"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 12:41 PM.,LAX,United United,1 stop,4 hr 33 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 1897,Economy Economy,"$1,021"
+2025-01-20 Monday,Departure time: 7:05 AM.,TPE,Arrival time: 8:40 AM.,LAX,EVA Air Asiana,1 stop,4 hr 10 min,未找到飛行時間,Yes,Airbus A321 Airbus A380,BR 170 OZ 202,Economy Economy,"$1,473"
+2025-01-20 Monday,Departure time: 8:50 AM.,TPE,Arrival time: 10:40 AM.,LAX,EVA Air United,1 stop,4 hr 50 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,BR 198 UA 33,Economy Economy,"$1,003"
+2025-01-20 Monday,Departure time: 3:50 PM.,TPE,Arrival time: 5:41 PM.,BUR,United United,1 stop,5 hr 5 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,UA 852 UA 1434,Economy Economy,"$1,249"
+2025-01-20 Monday,Departure time: 11:30 AM.,TPE,Arrival time: 1:34 PM.,BUR,EVA Air Alaska,1 stop,5 hr 53 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 8 AS 2138,Economy Economy,$816
+2025-01-20 Monday,Departure time: 6:35 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,3 hr 45 min,未找到飛行時間,Yes,Airbus A321neo Boeing 777,CX 473 CX 880,Economy Economy,$688
+2025-01-20 Monday,Departure time: 8:50 AM.,TPE,Arrival time: 11:15 AM.,LAX,EVA Air Singapore Airlines,1 stop,5 hr 20 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,BR 198 SQ 12,Economy Economy,$803
+2025-01-20 Monday,Departure time: 7:50 PM.,TPE,Arrival time: 10:15 PM.,BUR,EVA Air United,1 stop,6 hr 4 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 18 UA 1300,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 10:45 AM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,3 hr 40 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 489 CX 882,Economy Economy,$688
+2025-01-20 Monday,Departure time: 7:15 AM.,TSA,Arrival time: 9:50 AM.,LAX,EVA Air ANA,1 stop,5 hr 55 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 NH 6,Economy Premium Economy,"$2,130"
+2025-01-20 Monday,Departure time: 10:45 AM.,TPE,Arrival time: 1:22 PM.,LAX,Delta Delta,1 stop,4 hr 30 min,未找到飛行時間,Yes,Airbus A330-900neo Boeing 737,DL 68 DL 2769,Economy Economy,$680
+2025-01-20 Monday,Departure time: 7:55 AM.,TPE,Arrival time: 10:40 AM.,LAX,EVA Air United,1 stop,5 hr 45 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,BR 184 UA 33,Economy Economy,"$1,003"
+2025-01-20 Monday,Departure time: 8:10 AM.,TPE,Arrival time: 10:55 AM.,LAX,China Airlines JAL,1 stop,6 hr 15 min,未找到飛行時間,Yes,Boeing 777 Boeing 787,CI 156 JL 60,Economy Economy,"$1,122"
+2025-01-20 Monday,Departure time: 10:35 AM.,TPE,Arrival time: 1:20 PM.,LAX,JAL American,1 stop,5 hr 45 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 802 AA 26,Business Class Business Class,"$3,061"
+2025-01-20 Monday,Departure time: 4:00 PM.,TPE,Arrival time: 7:00 PM.,LAX,EVA Air Air China,1 stop,2 hr 25 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,BR 716 CA 983,Economy Economy,Price unavailable
+2025-01-20 Monday,Departure time: 11:30 AM.,TPE,Arrival time: 2:44 PM.,BUR,EVA Air United,1 stop,6 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 8 UA 1428,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 7:55 AM.,TPE,Arrival time: 11:15 AM.,LAX,EVA Air Singapore Airlines,1 stop,6 hr 15 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,BR 184 SQ 12,Economy Economy,$803
+2025-01-20 Monday,Departure time: 7:15 AM.,TSA,Arrival time: 10:40 AM.,LAX,EVA Air United,1 stop,6 hr 40 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 UA 33,Economy Economy,$763
+2025-01-20 Monday,Departure time: 9:50 AM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,4 hr 35 min,未找到飛行時間,Yes,Airbus A350 Boeing 777,CX 499 CX 882,Economy Economy,$688
+2025-01-20 Monday,Departure time: 9:50 AM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,4 hr 50 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 469 CX 882,Economy Economy,$688
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 2:41 PM.,LAX,United United,1 stop,6 hr 35 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 1962,Economy Economy,"$1,021"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 2:44 PM.,BUR,United United,1 stop,6 hr 45 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,UA 872 UA 1428,Economy Economy,$871
+2025-01-20 Monday,Departure time: 2:35 PM.,TPE,Arrival time: 6:10 PM.,LAX,China Southern China Southern,1 stop,4 hr 40 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CZ 3098 CZ 327,Economy Economy,"$1,306"
+2025-01-20 Monday,Departure time: 3:50 PM.,TPE,Arrival time: 7:28 PM.,BUR,United United,1 stop,6 hr 50 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,UA 852 UA 5927,Economy Economy,"$1,251"
+2025-01-20 Monday,Departure time: 2:20 AM.,TPE,Arrival time: 6:00 AM.,LAX,Jetstar American,1 stop,6 hr 40 min,未找到飛行時間,Yes,Airbus A320 Boeing 787,GK 12 AA 170,Economy Economy,"$1,128"
+2025-01-20 Monday,Departure time: 9:00 AM.,TSA,Arrival time: 12:40 PM.,LAX,China Airlines United,1 stop,6 hr 50 min,未找到飛行時間,Yes,Airbus A330 Boeing 787-10,CI 220 UA 38,Business Class Economy,"$2,525"
+2025-01-20 Monday,Departure time: 8:50 AM.,TPE,Arrival time: 12:40 PM.,LAX,EVA Air United,1 stop,6 hr 45 min,未找到飛行時間,Yes,Airbus A330 Boeing 787-10,BR 198 UA 38,Economy Economy,$731
+2025-01-20 Monday,Departure time: 9:30 AM.,TSA,Arrival time: 1:20 PM.,LAX,JAL American,1 stop,7 hr 5 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 AA 26,Business Class Business Class,"$3,545"
+2025-01-20 Monday,Departure time: 5:00 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,5 hr 20 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 421 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 7:15 AM.,TSA,Arrival time: 11:15 AM.,LAX,EVA Air Singapore Airlines,1 stop,7 hr 10 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 777,BR 192 SQ 12,Economy Economy,$811
+2025-01-20 Monday,Departure time: 2:05 PM.,TPE,Arrival time: 6:10 PM.,LAX,China Airlines China Southern,1 stop,5 hr 15 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 521 CZ 327,Economy Economy,"$2,620"
+2025-01-20 Monday,Departure time: 10:45 AM.,TPE,Arrival time: 2:51 PM.,LAX,Delta Delta,1 stop,5 hr 55 min,未找到飛行時間,Yes,Airbus A330-900neo Airbus A321neo,DL 68 DL 2752,Economy Economy,$596
+2025-01-20 Monday,Departure time: 7:50 PM.,TPE,"Arrival time: 12:06 AM on  Tuesday, January 21.",LAX,EVA Air United,1 stop,7 hr 45 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,BR 18 UA 2681,Economy Economy,"$3,288"
+2025-01-20 Monday,Departure time: 1:30 PM.,TSA,Arrival time: 5:50 PM.,LAX,ANA ANA,1 stop,7 hr 20 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 852 NH 106,Economy Economy,"$1,100"
+2025-01-20 Monday,Departure time: 9:20 AM.,TSA,Arrival time: 1:40 PM.,LAX,China Airlines Korean Air,1 stop,6 hr 55 min,未找到飛行時間,Yes,Boeing 737 Boeing 747,CI 260 KE 11,Business Class Business Class,"$9,314"
+2025-01-20 Monday,Departure time: 7:55 AM.,TPE,Arrival time: 12:40 PM.,LAX,EVA Air United,1 stop,7 hr 40 min,未找到飛行時間,Yes,Airbus A330 Boeing 787-10,BR 184 UA 38,Economy Economy,$731
+2025-01-20 Monday,Departure time: 8:20 AM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,6 hr 10 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 407 CX 882,Economy Economy,$688
+2025-01-20 Monday,Departure time: 3:50 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,6 hr 30 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 443 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 9:00 AM.,TSA,Arrival time: 2:05 PM.,LAX,China Airlines ANA,1 stop,8 hr 15 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 220 NH 126,Business Class Economy,"$2,525"
+2025-01-20 Monday,Departure time: 7:15 AM.,TSA,Arrival time: 12:40 PM.,LAX,EVA Air United,1 stop,8 hr 35 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787-10,BR 192 UA 38,Economy Economy,$721
+2025-01-20 Monday,Departure time: 1:35 PM.,TPE,Arrival time: 7:00 PM.,LAX,China Airlines Philippine Airlines,1 stop,6 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 703 PR 102,Economy Economy,"$1,051"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 4:51 PM.,LAX,United United,1 stop,8 hr 45 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 1960,Economy Economy,$975
+2025-01-20 Monday,Departure time: 7:55 AM.,TPE,Arrival time: 1:40 PM.,LAX,China Airlines Korean Air,1 stop,8 hr 20 min,未找到飛行時間,Yes,Airbus A330 Boeing 747,CI 160 KE 11,Economy Economy,"$1,133"
+2025-01-20 Monday,Departure time: 2:10 PM.,TPE,Arrival time: 7:55 PM.,LAX,Singapore Airlines Singapore Airlines,1 stop,1 hr 50 min,未找到飛行時間,Yes,Boeing 787 Airbus A350,SQ 877 SQ 38,Economy Economy,"$1,233"
+2025-01-20 Monday,Departure time: 1:15 PM.,TPE,Arrival time: 7:00 PM.,LAX,Air China Air China,1 stop,5 hr 25 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CA 186 CA 983,Economy Economy,Price unavailable
+2025-01-20 Monday,Departure time: 10:45 AM.,TPE,Arrival time: 4:33 PM.,LAX,Delta Delta,1 stop,7 hr 45 min,未找到飛行時間,Yes,Airbus A330-900neo Boeing 737,DL 68 DL 2830,Economy Economy,$596
+2025-01-20 Monday,Departure time: 11:30 AM.,TPE,Arrival time: 5:41 PM.,BUR,EVA Air United,1 stop,9 hr 50 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 8 UA 1434,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 3:50 PM.,TPE,Arrival time: 10:15 PM.,BUR,United United,1 stop,9 hr 39 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,UA 852 UA 1300,Economy Economy,"$1,235"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 5:41 PM.,BUR,United United,1 stop,9 hr 45 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,UA 872 UA 1434,Economy Economy,$871
+2025-01-20 Monday,Departure time: 7:15 AM.,TSA,Arrival time: 2:05 PM.,LAX,EVA Air ANA,1 stop,10 hr,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 NH 126,Economy Premium Economy,"$2,119"
+2025-01-20 Monday,Departure time: 2:20 AM.,TPE,Arrival time: 9:15 AM.,LAX,Jetstar JAL,1 stop,10 hr,未找到飛行時間,Yes,Airbus A320 Boeing 777,GK 12 JL 16,Economy Economy,"$1,128"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 6:06 PM.,LAX,United United,1 stop,10 hr,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 1754,Economy Economy,$992
+2025-01-20 Monday,Departure time: 12:05 AM.,TPE,Arrival time: 7:32 AM.,LAX,STARLUX Airlines Alaska,1 stop,11 hr 10 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 3318,Economy Economy,"$1,136"
+2025-01-20 Monday,Departure time: 2:20 AM.,TPE,Arrival time: 9:50 AM.,LAX,Jetstar JAL,1 stop,10 hr 45 min,未找到飛行時間,Yes,Airbus A320 Boeing 787,GK 12 JL 62,Economy Economy,"$1,122"
+2025-01-20 Monday,Departure time: 1:20 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,9 hr,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 495 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 7:05 AM.,TPE,Arrival time: 2:50 PM.,LAX,EVA Air Asiana,1 stop,10 hr 10 min,未找到飛行時間,Yes,Airbus A321 Airbus A350,BR 170 OZ 204,Economy Economy,"$1,540"
+2025-01-20 Monday,Departure time: 11:50 PM.,TPE,"Arrival time: 8:00 AM on  Tuesday, January 21.",LAX,China Airlines Philippine Airlines,1 stop,9 hr 10 min,未找到飛行時間,Yes,Airbus A321neo Boeing 777,CI 709 PR 112,Economy Economy,$748
+2025-01-20 Monday,Departure time: 9:45 PM.,TPE,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,Hong Kong Airlines United,1 stop,9 hr 40 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,HX 283 UA 153,Economy Premium Economy,"$4,019"
+2025-01-20 Monday,Departure time: 3:50 PM.,TPE,"Arrival time: 12:06 AM on  Tuesday, January 21.",LAX,United United,1 stop,11 hr 20 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 852 UA 2681,Economy Economy,"$1,433"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 7:28 PM.,BUR,United United,1 stop,11 hr 30 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,UA 872 UA 5927,Economy Economy,$871
+2025-01-20 Monday,Departure time: 2:20 AM.,TPE,Arrival time: 10:40 AM.,LAX,Jetstar United,1 stop,11 hr 20 min,未找到飛行時間,Yes,Airbus A320 Boeing 787,GK 12 UA 33,Economy Economy,"$2,097"
+2025-01-20 Monday,Departure time: 2:30 AM.,TPE,Arrival time: 10:55 AM.,LAX,Jetstar JAL,1 stop,11 hr 50 min,未找到飛行時間,Yes,Airbus A320 Boeing 787,GK 50 JL 60,Economy Economy,"$1,854"
+2025-01-20 Monday,Departure time: 12:25 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,9 hr 55 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 461 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 12:05 AM.,TPE,Arrival time: 8:38 AM.,LAX,STARLUX Airlines Alaska,1 stop,12 hr 10 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,JX 12 AS 1049,Economy Economy,"$1,136"
+2025-01-20 Monday,Departure time: 10:20 AM.,TPE,Arrival time: 7:00 PM.,LAX,Philippine Airlines Philippine Airlines,1 stop,9 hr 55 min,未找到飛行時間,Yes,Airbus A321 Boeing 777,PR 891 PR 102,Economy Economy,"$1,106"
+2025-01-20 Monday,Departure time: 9:15 PM.,TPE,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,Cathay Pacific United,1 stop,10 hr,未找到飛行時間,Yes,Boeing 777 Boeing 787,CX 479 UA 153,Economy Economy,$793
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 7:56 PM.,LAX,United United,1 stop,11 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 9 Passenger,UA 872 UA 1812,Economy Economy,$975
+2025-01-20 Monday,Departure time: 11:45 PM.,TPE,"Arrival time: 8:38 AM on  Tuesday, January 21.",LAX,China Airlines Alaska,1 stop,12 hr 10 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 9 Passenger,CI 4 AS 1049,Economy Economy,$818
+2025-01-20 Monday,Departure time: 11:35 PM.,TPE,"Arrival time: 8:47 AM on  Tuesday, January 21.",LAX,China Airlines Alaska,1 stop,11 hr 45 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,CI 22 AS 3321,Economy Economy,$723
+2025-01-20 Monday,Departure time: 11:30 AM.,TPE,Arrival time: 8:49 PM.,BUR,EVA Air Alaska,1 stop,13 hr 6 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 8 AS 3354,Economy Economy,$816
+2025-01-20 Monday,Departure time: 8:15 PM.,TPE,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,Cathay Pacific United,1 stop,11 hr 5 min,未找到飛行時間,Yes,Airbus A350 Boeing 787,CX 531 UA 153,Business Class Business Class,"$3,363"
+2025-01-20 Monday,Departure time: 12:05 AM.,TPE,Arrival time: 9:54 AM.,BUR,STARLUX Airlines Alaska,1 stop,13 hr 50 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 3333,Economy Economy,"$1,176"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 9:10 PM.,LAX,United United,1 stop,13 hr 4 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 1843,Economy Economy,$975
+2025-01-20 Monday,Departure time: 10:45 AM.,TPE,Arrival time: 8:46 PM.,LAX,Delta Delta,1 stop,11 hr 54 min,未找到飛行時間,Yes,Airbus A330-900neo Boeing 737,DL 68 DL 2861,Economy Economy,$680
+2025-01-20 Monday,Departure time: 11:45 PM.,TPE,"Arrival time: 9:54 AM on  Tuesday, January 21.",BUR,China Airlines Alaska,1 stop,13 hr 50 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,CI 4 AS 3333,Economy Economy,"$2,636"
+2025-01-20 Monday,Departure time: 10:45 AM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,11 hr 25 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 489 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 9:50 PM.,TPE,"Arrival time: 8:00 AM on  Tuesday, January 21.",LAX,Philippine Airlines Philippine Airlines,1 stop,11 hr 10 min,未找到飛行時間,Yes,Airbus A321 Boeing 777,PR 895 PR 112,Economy Economy,$943
+2025-01-20 Monday,Departure time: 11:35 PM.,TPE,"Arrival time: 9:50 AM on  Tuesday, January 21.",LAX,China Airlines Alaska,1 stop,12 hr 45 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,CI 22 AS 1246,Economy Economy,$723
+2025-01-20 Monday,Departure time: 11:30 PM.,TPE,"Arrival time: 9:49 AM on  Tuesday, January 21.",BUR,EVA Air United,1 stop,13 hr 55 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 28 UA 1965,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 7:40 PM.,TPE,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,Cathay Pacific United,1 stop,11 hr 40 min,未找到飛行時間,Yes,Boeing 777 Boeing 787,CX 451 UA 153,Economy Economy,$793
+2025-01-20 Monday,Departure time: 11:30 PM.,TPE,"Arrival time: 9:54 AM on  Tuesday, January 21.",BUR,EVA Air Alaska,1 stop,14 hr 10 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 28 AS 3333,Economy Economy,"$1,035"
+2025-01-20 Monday,Departure time: 7:30 PM.,TPE,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,Cathay Pacific United,1 stop,11 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 787,CX 565 UA 153,Economy Economy,$793
+2025-01-20 Monday,Departure time: 7:15 AM.,TSA,Arrival time: 5:50 PM.,LAX,EVA Air ANA,1 stop,13 hr 45 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 NH 106,Economy Premium Economy,"$2,119"
+2025-01-20 Monday,Departure time: 7:00 PM.,TPE,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,EVA Air United,1 stop,12 hr 35 min,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 809 UA 153,Economy Economy,$754
+2025-01-20 Monday,Departure time: 11:55 PM.,TPE,"Arrival time: 10:58 AM on  Tuesday, January 21.",LAX,China Airlines WestJet,1 stop,13 hr 40 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,CI 32 WS 1696,Economy Economy,"$1,113"
+2025-01-20 Monday,Departure time: 9:50 AM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,12 hr 20 min,未找到飛行時間,Yes,Airbus A350 Boeing 777,CX 499 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 9:50 AM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,12 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 469 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,Arrival time: 10:15 PM.,BUR,United United,1 stop,14 hr 19 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,UA 872 UA 1300,Economy Economy,$871
+2025-01-20 Monday,Departure time: 11:55 PM.,TPE,"Arrival time: 11:10 AM on  Tuesday, January 21.",LAX,China Airlines Air Canada,1 stop,13 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,CI 32 AC 552,Economy Economy,"$1,144"
+2025-01-20 Monday,Departure time: 11:55 PM.,TPE,"Arrival time: 11:10 AM on  Tuesday, January 21.",LAX,EVA Air Air Canada,1 stop,13 hr 35 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 10 AC 552,Economy Economy,"$1,330"
+2025-01-20 Monday,Departure time: 7:35 AM.,TPE,Arrival time: 7:00 PM.,LAX,China Airlines Philippine Airlines,1 stop,12 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 701 PR 102,Economy Economy,$748
+2025-01-20 Monday,Departure time: 11:40 PM.,TPE,"Arrival time: 11:05 AM on  Tuesday, January 21.",BUR,EVA Air Alaska,1 stop,14 hr 20 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 737MAX 9 Passenger,BR 26 AS 1290,Economy Economy,$882
+2025-01-20 Monday,Departure time: 11:35 PM.,TPE,"Arrival time: 11:05 AM on  Tuesday, January 21.",BUR,China Airlines Alaska,1 stop,14 hr 15 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,CI 22 AS 1290,Economy Economy,"$2,650"
+2025-01-20 Monday,Departure time: 6:10 PM.,TPE,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,EVA Air United,1 stop,13 hr 20 min,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 857 UA 153,Economy Economy,$754
+2025-01-20 Monday,Departure time: 12:05 AM.,TPE,Arrival time: 12:10 PM.,LAX,STARLUX Airlines Alaska,1 stop,15 hr 47 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 3424,Economy Economy,"$1,136"
+2025-01-20 Monday,Departure time: 10:45 AM.,TPE,Arrival time: 11:01 PM.,LAX,Delta Delta,1 stop,14 hr 10 min,未找到飛行時間,Yes,Airbus A330-900neo Boeing 737,DL 68 DL 2854,Economy Economy,$596
+2025-01-20 Monday,Departure time: 11:45 PM.,TPE,"Arrival time: 12:08 PM on  Tuesday, January 21.",LAX,China Airlines Alaska,1 stop,15 hr 47 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,CI 4 AS 2149,Economy Economy,$818
+2025-01-20 Monday,Departure time: 8:20 AM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,13 hr 55 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 407 CX 880,Economy Economy,$546
+2025-01-20 Monday,Departure time: 11:30 AM.,TPE,"Arrival time: 12:06 AM on  Tuesday, January 21.",LAX,EVA Air United,1 stop,16 hr 5 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,BR 8 UA 2681,Economy Economy,"$3,288"
+2025-01-20 Monday,Departure time: 11:45 PM.,TPE,"Arrival time: 12:22 PM on  Tuesday, January 21.",LAX,China Airlines Delta,1 stop,15 hr 55 min,未找到飛行時間,Yes,Boeing 777 Airbus A320,CI 4 DL 1715,Economy Economy,$796
+2025-01-20 Monday,Departure time: 11:30 PM.,TPE,"Arrival time: 12:10 PM on  Tuesday, January 21.",BUR,EVA Air United,1 stop,16 hr 17 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 28 UA 2441,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 10:10 PM.,TPE,"Arrival time: 11:05 AM on  Tuesday, January 21.",LAX,Turkish Airlines Turkish Airlines,1 stop,2 hr 5 min,未找到飛行時間,Yes,Boeing 777 Airbus A350,TK 25 TK 179,Economy Economy,"$1,395"
+2025-01-20 Monday,Departure time: 11:10 AM.,TPE,"Arrival time: 12:06 AM on  Tuesday, January 21.",LAX,United United,1 stop,16 hr,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 2681,Economy Economy,$975
+2025-01-20 Monday,Departure time: 7:25 PM.,TPE,"Arrival time: 8:30 AM on  Tuesday, January 21.",LAX,Korean Air Korean Air,1 stop,15 hr 35 min,未找到飛行時間,Yes,Boeing 777 Airbus A380,KE 188 KE 17,Economy Economy,$969
+2025-01-20 Monday,Departure time: 11:40 PM.,TPE,"Arrival time: 12:45 PM on  Tuesday, January 21.",LAX,Emirates Emirates,1 stop,2 hr 55 min,未找到飛行時間,Yes,Airbus A380 Airbus A380,EK 367 EK 215,Economy Economy,"$1,609"
+2025-01-20 Monday,Departure time: 4:50 PM.,TSA,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,ANA American,1 stop,16 hr 25 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 854 AA 170,Economy Premium Economy,"$5,609"
+2025-01-20 Monday,Departure time: 11:55 PM.,TPE,"Arrival time: 1:18 PM on  Tuesday, January 21.",LAX,China Airlines Air Canada,1 stop,16 hr 10 min,未找到飛行時間,Yes,Boeing 777 Canadair RJ 900,CI 32 AC 8574,Economy Economy,"$1,144"
+2025-01-20 Monday,Departure time: 11:55 PM.,TPE,"Arrival time: 1:18 PM on  Tuesday, January 21.",LAX,EVA Air Air Canada,1 stop,15 hr 55 min,未找到飛行時間,Yes,Boeing 777 Canadair RJ 900,BR 10 AC 8574,Economy Economy,"$1,330"
+2025-01-20 Monday,Departure time: 4:35 PM.,TPE,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,EVA Air United,1 stop,14 hr 55 min,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 871 UA 153,Economy Economy,$754
+2025-01-20 Monday,Departure time: 12:05 AM.,TPE,Arrival time: 1:34 PM.,BUR,STARLUX Airlines Alaska,1 stop,17 hr 33 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 2138,Economy Economy,"$1,204"
+2025-01-20 Monday,Departure time: 4:25 PM.,TSA,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,EVA Air American,1 stop,16 hr 45 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 190 AA 170,Economy Premium Economy,"$5,692"
+2025-01-20 Monday,Departure time: 11:45 PM.,TPE,"Arrival time: 1:34 PM on  Tuesday, January 21.",BUR,China Airlines Alaska,1 stop,17 hr 33 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,CI 4 AS 2138,Economy Economy,"$2,636"
+2025-01-20 Monday,Departure time: 7:50 PM.,TPE,"Arrival time: 9:49 AM on  Tuesday, January 21.",BUR,EVA Air United,1 stop,17 hr 35 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 18 UA 1965,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 7:50 PM.,TPE,"Arrival time: 9:54 AM on  Tuesday, January 21.",BUR,EVA Air Alaska,1 stop,17 hr 50 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 18 AS 3333,Economy Economy,"$1,035"
+2025-01-20 Monday,Departure time: 11:30 PM.,TPE,"Arrival time: 1:34 PM on  Tuesday, January 21.",BUR,EVA Air Alaska,1 stop,17 hr 53 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 28 AS 2138,Economy Economy,"$1,035"
+2025-01-20 Monday,Departure time: 12:05 AM.,TPE,Arrival time: 2:17 PM.,LAX,STARLUX Airlines Alaska,1 stop,17 hr 59 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 2146,Economy Economy,"$1,136"
+2025-01-20 Monday,Departure time: 6:40 PM.,TPE,"Arrival time: 9:05 AM on  Tuesday, January 21.",LAX,China Eastern China Eastern,1 stop,16 hr 45 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,MU 5006 MU 583,Economy Economy,"$1,179"
+2025-01-20 Monday,Departure time: 3:35 PM.,TSA,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,JAL American,1 stop,17 hr 40 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 98 AA 170,Economy Economy,"$1,866"
+2025-01-20 Monday,Departure time: 6:25 PM.,TSA,"Arrival time: 9:15 AM on  Tuesday, January 21.",LAX,China Airlines JAL,1 stop,18 hr 10 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 222 JL 16,Economy Premium Economy,"$2,091"
+2025-01-20 Monday,Departure time: 11:30 PM.,TPE,"Arrival time: 2:44 PM on  Tuesday, January 21.",BUR,EVA Air United,1 stop,18 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 28 UA 1428,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 6:25 PM.,TSA,"Arrival time: 9:50 AM on  Tuesday, January 21.",LAX,China Airlines JAL,1 stop,18 hr 55 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 222 JL 62,Economy Premium Economy,"$2,102"
+2025-01-20 Monday,Departure time: 6:25 PM.,TSA,"Arrival time: 9:50 AM on  Tuesday, January 21.",LAX,China Airlines ANA,1 stop,18 hr 45 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 222 NH 6,Business Class Economy,"$2,536"
+2025-01-20 Monday,Departure time: 5:10 PM.,TPE,"Arrival time: 8:40 AM on  Tuesday, January 21.",LAX,Asiana Asiana,1 stop,18 hr 10 min,未找到飛行時間,Yes,Airbus A330 Airbus A380,OZ 714 OZ 202,Economy Economy,"$1,083"
+2025-01-20 Monday,Departure time: 11:40 PM.,TPE,"Arrival time: 3:12 PM on  Tuesday, January 21.",BUR,EVA Air Alaska,1 stop,18 hr 30 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 737MAX 9 Passenger,BR 26 AS 1120,Economy Economy,$882
+2025-01-20 Monday,Departure time: 2:25 PM.,TPE,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,EVA Air United,1 stop,17 hr,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 855 UA 153,Economy Economy,$754
+2025-01-20 Monday,Departure time: 11:35 PM.,TPE,"Arrival time: 3:12 PM on  Tuesday, January 21.",BUR,China Airlines Alaska,1 stop,18 hr 25 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,CI 22 AS 1120,Economy Economy,"$2,650"
+2025-01-20 Monday,Departure time: 5:15 PM.,TSA,"Arrival time: 9:05 AM on  Tuesday, January 21.",LAX,China Eastern China Eastern,1 stop,18 hr 20 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,MU 5098 MU 583,Economy Economy,"$1,179"
+2025-01-20 Monday,Departure time: 9:15 PM.,TPE,"Arrival time: 1:20 PM on  Tuesday, January 21.",LAX,Cathay Pacific Cathay Pacific,1 stop,17 hr 15 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 479 CX 882,Economy Economy,$785
+2025-01-20 Monday,Departure time: 11:55 PM.,TPE,"Arrival time: 4:06 PM on  Tuesday, January 21.",LAX,China Airlines Air Canada,1 stop,18 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,CI 32 AC 556,Economy Economy,"$1,144"
+2025-01-20 Monday,Departure time: 11:55 PM.,TPE,"Arrival time: 4:06 PM on  Tuesday, January 21.",LAX,EVA Air Air Canada,1 stop,18 hr 35 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 10 AC 556,Economy Economy,"$1,330"
+2025-01-20 Monday,Departure time: 6:25 PM.,TSA,"Arrival time: 10:40 AM on  Tuesday, January 21.",LAX,China Airlines United,1 stop,19 hr 30 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 222 UA 33,Business Class Economy,"$2,536"
+2025-01-20 Monday,Departure time: 7:50 PM.,TPE,"Arrival time: 12:10 PM on  Tuesday, January 21.",BUR,EVA Air United,1 stop,19 hr 57 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 18 UA 2441,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 1:30 PM.,TSA,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,ANA American,1 stop,19 hr 35 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 852 AA 170,Economy Premium Economy,"$5,609"
+2025-01-20 Monday,Departure time: 4:50 PM.,TSA,"Arrival time: 9:50 AM on  Tuesday, January 21.",LAX,ANA ANA,1 stop,20 hr 20 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 854 NH 6,Economy Economy,$943
+2025-01-20 Monday,Departure time: 8:15 PM.,TPE,"Arrival time: 1:20 PM on  Tuesday, January 21.",LAX,Cathay Pacific Cathay Pacific,1 stop,18 hr 20 min,未找到飛行時間,Yes,Airbus A350 Boeing 777,CX 531 CX 882,Economy Economy,$952
+2025-01-20 Monday,Departure time: 7:40 PM.,TPE,"Arrival time: 1:20 PM on  Tuesday, January 21.",LAX,Cathay Pacific Cathay Pacific,1 stop,18 hr 55 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 451 CX 882,Economy Economy,$785
+2025-01-20 Monday,Departure time: 3:35 PM.,TSA,"Arrival time: 9:15 AM on  Tuesday, January 21.",LAX,JAL JAL,1 stop,21 hr,未找到飛行時間,Yes,Boeing 787 Boeing 777,JL 98 JL 16,Economy Economy,$830
+2025-01-20 Monday,Departure time: 7:50 PM.,TPE,"Arrival time: 1:34 PM on  Tuesday, January 21.",BUR,EVA Air Alaska,1 stop,21 hr 33 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 18 AS 2138,Economy Economy,"$1,035"
+2025-01-20 Monday,Departure time: 3:50 PM.,TPE,"Arrival time: 9:49 AM on  Tuesday, January 21.",BUR,United United,1 stop,21 hr 10 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,UA 852 UA 1965,Economy Economy,"$1,235"
+2025-01-20 Monday,Departure time: 3:50 PM.,TPE,"Arrival time: 9:54 AM on  Tuesday, January 21.",BUR,United Alaska,1 stop,21 hr 25 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,UA 852 AS 3333,Premium Economy Economy,"$2,158"
+2025-01-20 Monday,Departure time: 3:00 PM.,TPE,"Arrival time: 9:05 AM on  Tuesday, January 21.",LAX,China Eastern China Eastern,1 stop,20 hr 10 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,MU 5008 MU 583,Economy Economy,"$1,179"
+2025-01-20 Monday,Departure time: 4:25 PM.,TSA,"Arrival time: 10:40 AM on  Tuesday, January 21.",LAX,EVA Air United,1 stop,21 hr 25 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 190 UA 33,Economy Economy,$732
+2025-01-20 Monday,Departure time: 3:35 PM.,TSA,"Arrival time: 9:50 AM on  Tuesday, January 21.",LAX,JAL JAL,1 stop,21 hr 45 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 98 JL 62,Economy Economy,$754
+2025-01-20 Monday,Departure time: 6:25 PM.,TSA,"Arrival time: 12:40 PM on  Tuesday, January 21.",LAX,China Airlines United,1 stop,21 hr 25 min,未找到飛行時間,Yes,Airbus A330 Boeing 787-10,CI 222 UA 38,Business Class Economy,"$2,525"
+2025-01-20 Monday,Departure time: 11:40 PM.,TPE,"Arrival time: 6:14 PM on  Tuesday, January 21.",BUR,EVA Air Alaska,1 stop,21 hr 40 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 737MAX 9 Passenger,BR 26 AS 736,Economy Economy,$882
+2025-01-20 Monday,Departure time: 10:10 PM.,TPE,"Arrival time: 5:00 PM on  Tuesday, January 21.",LAX,Turkish Airlines Turkish Airlines,1 stop,7 hr 55 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,TK 25 TK 9,Economy Economy,"$1,395"
+2025-01-20 Monday,Departure time: 7:50 PM.,TPE,"Arrival time: 2:44 PM on  Tuesday, January 21.",BUR,EVA Air United,1 stop,22 hr 30 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 18 UA 1428,Economy Economy,"$1,423"
+2025-01-20 Monday,Departure time: 6:25 PM.,TSA,"Arrival time: 2:05 PM on  Tuesday, January 21.",LAX,China Airlines ANA,1 stop,22 hr 50 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 222 NH 126,Business Class Economy,"$2,525"
+2025-01-20 Monday,Departure time: 4:50 PM.,TSA,"Arrival time: 12:40 PM on  Tuesday, January 21.",LAX,ANA United,1 stop,23 hr,未找到飛行時間,Yes,Boeing 787 Boeing 787-10,NH 854 UA 38,Economy Economy,"$2,046"
+2025-01-20 Monday,Departure time: 4:25 PM.,TSA,"Arrival time: 12:40 PM on  Tuesday, January 21.",LAX,EVA Air United,1 stop,23 hr 20 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787-10,BR 190 UA 38,Economy Economy,$721
+2025-01-20 Monday,Departure time: 3:50 PM.,TPE,"Arrival time: 12:10 PM on  Tuesday, January 21.",BUR,United United,1 stop,23 hr 32 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,UA 852 UA 2441,Economy Economy,"$1,235"
+2025-01-20 Monday,Departure time: 9:30 AM.,TSA,"Arrival time: 6:00 AM on  Tuesday, January 21.",LAX,JAL American,1 stop,23 hr 45 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 AA 170,Economy Premium Economy,"$2,091"
+2025-01-20 Monday,Departure time: 12:30 PM.,TSA,"Arrival time: 9:05 AM on  Tuesday, January 21.",LAX,China Airlines China Eastern,1 stop,22 hr 55 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 201 MU 583,Economy Economy,"$1,113"
+2025-01-20 Monday,Departure time: 4:50 PM.,TSA,"Arrival time: 2:05 PM on  Tuesday, January 21.",LAX,ANA ANA,1 stop,24 hr 25 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 854 NH 126,Economy Economy,$948
+2025-01-20 Monday,Departure time: 11:30 PM.,TPE,"Arrival time: 8:49 PM on  Tuesday, January 21.",BUR,EVA Air Alaska,1 stop,25 hr 6 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 28 AS 3354,Economy Economy,"$1,035"
+2025-01-20 Monday,Departure time: 4:25 PM.,TSA,"Arrival time: 2:05 PM on  Tuesday, January 21.",LAX,EVA Air ANA,1 stop,24 hr 45 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 190 NH 126,Economy Economy,$738
+2025-01-20 Monday,Departure time: 7:45 PM.,TSA,"Arrival time: 7:00 PM on  Tuesday, January 21.",LAX,XiamenAir XiamenAir,1 stop,25 hr 25 min,未找到飛行時間,Yes,Boeing 737 Boeing 787,MF 882 MF 829,Economy Economy,$973
+2025-01-20 Monday,Departure time: 6:05 PM.,TSA,"Arrival time: 7:00 PM on  Tuesday, January 21.",LAX,Sichuan Airlines Sichuan Airlines,1 stop,24 hr 45 min,未找到飛行時間,Yes,Airbus A321 Airbus A350,3U 3982 3U 3837,Economy Economy,Price unavailable
+出發日期,出發時間,出發機場代號,抵達時間,抵達機場代號,航空公司,停靠站數量,停留時間,飛行時間,是否過夜,機型,航班代碼,艙等,價格
+2025-01-21 Tuesday,Departure time: 11:40 PM.,TPE,Arrival time: 7:00 PM.,LAX,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A350,JX 2,Economy,$619
+2025-01-21 Tuesday,Departure time: 11:55 PM.,TPE,Arrival time: 7:15 PM.,LAX,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Boeing 777,BR 16,Economy,$752
+2025-01-21 Tuesday,Departure time: 7:40 PM.,TPE,Arrival time: 3:00 PM.,LAX,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Airbus A350,JX 6,Economy,$936
+2025-01-21 Tuesday,Departure time: 7:40 PM.,TPE,Arrival time: 3:00 PM.,LAX,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Boeing 777,BR 12,Economy,$941
+2025-01-21 Tuesday,Departure time: 11:20 AM.,TPE,Arrival time: 6:50 AM.,LAX,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,Yes,Boeing 777,BR 6,Economy,$752
+2025-01-21 Tuesday,Departure time: 11:50 PM.,TPE,Arrival time: 7:35 PM.,LAX,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,Yes,Boeing 777,CI 8,Economy,$748
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TPE,Arrival time: 9:49 AM.,BUR,EVA Air United,1 stop,1 hr 55 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 8 UA 1965,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TPE,Arrival time: 9:54 AM.,BUR,EVA Air Alaska,1 stop,2 hr 10 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 8 AS 3333,Economy Economy,$816
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 9:49 AM.,BUR,United United,1 stop,1 hr 50 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,UA 872 UA 1965,Economy Economy,$871
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 9:54 AM.,BUR,United Alaska,1 stop,2 hr 5 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,UA 872 AS 3333,Premium Economy Economy,"$2,158"
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,Arrival time: 10:15 PM.,BUR,EVA Air United,1 stop,2 hr 24 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 28 UA 1300,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 6:00 AM.,LAX,EVA Air American,1 stop,2 hr,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 AA 170,Economy Premium Economy,"$5,692"
+2025-01-21 Tuesday,Departure time: 10:45 AM.,TPE,Arrival time: 9:55 AM.,LAX,Delta Delta,1 stop,1 hr 5 min,未找到飛行時間,Yes,Airbus A330-900neo Boeing 737,DL 68 DL 1628,Economy Economy,$596
+2025-01-21 Tuesday,Departure time: 1:30 PM.,TSA,Arrival time: 12:40 PM.,LAX,ANA United,1 stop,2 hr 10 min,未找到飛行時間,Yes,Boeing 787 Boeing 787-10,NH 852 UA 38,Economy Economy,"$1,968"
+2025-01-21 Tuesday,Departure time: 10:35 AM.,TPE,Arrival time: 9:50 AM.,LAX,JAL JAL,1 stop,2 hr 30 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 802 JL 62,Economy Economy,"$1,869"
+2025-01-21 Tuesday,Departure time: 12:05 AM.,TPE,"Arrival time: 11:21 PM on  Monday, January 20.",LAX,STARLUX Airlines Alaska,1 stop,3 hr 3 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 2275,Economy Economy,$791
+2025-01-21 Tuesday,Departure time: 6:25 PM.,TSA,Arrival time: 5:50 PM.,LAX,China Airlines ANA,1 stop,2 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 222 NH 106,Business Class Economy,"$2,525"
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 10:38 AM.,LAX,United United,1 stop,2 hr 30 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 1842,Economy Economy,$988
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,Arrival time: 7:28 PM.,BUR,EVA Air United,1 stop,3 hr 15 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 18 UA 5927,Economy Economy,"$1,523"
+2025-01-21 Tuesday,Departure time: 9:15 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,1 hr,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 479 CX 880,Economy Economy,$546
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TSA,Arrival time: 9:15 AM.,LAX,JAL JAL,1 stop,3 hr 5 min,未找到飛行時間,Yes,Boeing 787 Boeing 777,JL 96 JL 16,Economy Premium Economy,"$2,091"
+2025-01-21 Tuesday,Departure time: 1:30 PM.,TSA,Arrival time: 1:20 PM.,LAX,ANA American,1 stop,2 hr 55 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 852 AA 26,Economy Premium Economy,"$5,609"
+2025-01-21 Tuesday,Departure time: 1:20 PM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,1 hr 15 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 495 CX 882,Economy Economy,$937
+2025-01-21 Tuesday,Departure time: 9:00 AM.,TSA,Arrival time: 9:15 AM.,LAX,China Airlines JAL,1 stop,3 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 220 JL 16,Business Class Premium Economy,"$2,637"
+2025-01-21 Tuesday,Departure time: 8:45 AM.,TPE,Arrival time: 9:05 AM.,LAX,China Airlines China Eastern,1 stop,2 hr 20 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CI 501 MU 583,Economy Economy,"$1,113"
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TSA,Arrival time: 9:50 AM.,LAX,JAL JAL,1 stop,3 hr 50 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 JL 62,Economy Premium Economy,"$2,102"
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TSA,Arrival time: 9:50 AM.,LAX,JAL ANA,1 stop,3 hr 40 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 NH 6,Business Class Premium Economy,"$2,711"
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 12:06 AM on  Wednesday, January 22.",LAX,China Airlines United,1 stop,3 hr 45 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,CI 4 UA 2681,Economy Economy,"$3,553"
+2025-01-21 Tuesday,Departure time: 1:30 PM.,TSA,Arrival time: 2:05 PM.,LAX,ANA ANA,1 stop,3 hr 35 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 852 NH 126,Economy Premium Economy,"$1,584"
+2025-01-21 Tuesday,Departure time: 7:55 AM.,TPE,Arrival time: 8:30 AM.,LAX,China Airlines Korean Air,1 stop,3 hr 10 min,未找到飛行時間,Yes,Airbus A330 Airbus A380,CI 160 KE 17,Business Class Economy,"$2,817"
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 12:06 AM on  Wednesday, January 22.",LAX,EVA Air United,1 stop,4 hr 5 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,BR 28 UA 2681,Economy Economy,"$3,288"
+2025-01-21 Tuesday,Departure time: 8:15 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,2 hr 5 min,未找到飛行時間,Yes,Airbus A350 Boeing 777,CX 531 CX 880,Economy Economy,$607
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TPE,Arrival time: 12:10 PM.,BUR,EVA Air United,1 stop,4 hr 17 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 8 UA 2441,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 5:00 PM.,TPE,Arrival time: 5:45 PM.,LAX,Cathay Pacific United,1 stop,2 hr,未找到飛行時間,Yes,Airbus A330 Boeing 787,CX 421 UA 802,Economy Economy,$948
+2025-01-21 Tuesday,Departure time: 9:00 AM.,TSA,Arrival time: 9:50 AM.,LAX,China Airlines ANA,1 stop,4 hr 10 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 220 NH 6,Business Class Economy,"$2,536"
+2025-01-21 Tuesday,Departure time: 12:25 PM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,2 hr 10 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 461 CX 882,Economy Economy,$769
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,Arrival time: 8:49 PM.,BUR,EVA Air Alaska,1 stop,4 hr 46 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 18 AS 3354,Economy Economy,$816
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 12:10 PM.,BUR,United United,1 stop,4 hr 12 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,UA 872 UA 2441,Economy Economy,$871
+2025-01-21 Tuesday,Departure time: 4:50 PM.,TSA,Arrival time: 5:50 PM.,LAX,ANA ANA,1 stop,4 hr 10 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 854 NH 106,Economy Economy,"$1,451"
+2025-01-21 Tuesday,Departure time: 8:00 AM.,TSA,Arrival time: 9:05 AM.,LAX,Uni Airways China Eastern,1 stop,3 hr 10 min,未找到飛行時間,Yes,Airbus A321 Boeing 777,B7 502 MU 583,Economy Economy,"$1,369"
+2025-01-21 Tuesday,Departure time: 4:35 PM.,TPE,Arrival time: 5:45 PM.,LAX,EVA Air United,1 stop,2 hr 35 min,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 871 UA 802,Economy Economy,$910
+2025-01-21 Tuesday,Departure time: 1:40 PM.,TPE,Arrival time: 2:50 PM.,LAX,Asiana Asiana,1 stop,3 hr 40 min,未找到飛行時間,Yes,Airbus A380 Airbus A350,OZ 712 OZ 204,Economy Economy,$923
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TSA,Arrival time: 10:40 AM.,LAX,JAL United,1 stop,4 hr 25 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 UA 33,Business Class Premium Economy,"$2,711"
+2025-01-21 Tuesday,Departure time: 7:40 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,2 hr 40 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 451 CX 880,Economy Economy,$546
+2025-01-21 Tuesday,Departure time: 12:25 PM.,TPE,Arrival time: 1:40 PM.,LAX,Korean Air Korean Air,1 stop,3 hr 50 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 747,KE 186 KE 11,Economy Economy,"$1,133"
+2025-01-21 Tuesday,Departure time: 7:30 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,2 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 565 CX 880,Economy Economy,$546
+2025-01-21 Tuesday,Departure time: 4:25 PM.,TSA,Arrival time: 5:50 PM.,LAX,EVA Air ANA,1 stop,4 hr 30 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 190 NH 106,Economy Premium Economy,"$2,119"
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 12:41 PM.,LAX,United United,1 stop,4 hr 33 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,UA 872 UA 1897,Economy Economy,$975
+2025-01-21 Tuesday,Departure time: 7:05 AM.,TPE,Arrival time: 8:40 AM.,LAX,EVA Air Asiana,1 stop,4 hr 10 min,未找到飛行時間,Yes,Airbus A321 Airbus A380,BR 170 OZ 202,Economy Economy,"$1,473"
+2025-01-21 Tuesday,Departure time: 8:50 AM.,TPE,Arrival time: 10:40 AM.,LAX,EVA Air United,1 stop,4 hr 50 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,BR 198 UA 33,Economy Economy,$724
+2025-01-21 Tuesday,Departure time: 3:50 PM.,TPE,Arrival time: 5:45 PM.,LAX,Cathay Pacific United,1 stop,3 hr 10 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CX 443 UA 802,Economy Economy,$948
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 9:15 AM.,LAX,EVA Air JAL,1 stop,5 hr 20 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 777,BR 192 JL 16,Economy Premium Economy,"$5,761"
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TPE,Arrival time: 1:34 PM.,BUR,EVA Air Alaska,1 stop,5 hr 53 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 8 AS 2138,Economy Economy,$816
+2025-01-21 Tuesday,Departure time: 6:35 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,3 hr 45 min,未找到飛行時間,Yes,Airbus A321neo Boeing 777,CX 473 CX 880,Economy Economy,$546
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,Arrival time: 10:15 PM.,BUR,EVA Air United,1 stop,6 hr 4 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 18 UA 1300,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 10:45 AM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,3 hr 40 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 489 CX 882,Economy Economy,$769
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 9:50 AM.,LAX,EVA Air ANA,1 stop,5 hr 55 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 NH 6,Economy Premium Economy,"$2,130"
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 9:50 AM.,LAX,EVA Air JAL,1 stop,6 hr 5 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 JL 62,Economy Premium Economy,"$5,703"
+2025-01-21 Tuesday,Departure time: 10:45 AM.,TPE,Arrival time: 1:22 PM.,LAX,Delta Delta,1 stop,4 hr 30 min,未找到飛行時間,Yes,Airbus A330-900neo Boeing 737,DL 68 DL 2769,Economy Economy,$596
+2025-01-21 Tuesday,Departure time: 7:55 AM.,TPE,Arrival time: 10:40 AM.,LAX,EVA Air United,1 stop,5 hr 45 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,BR 184 UA 33,Economy Economy,$724
+2025-01-21 Tuesday,Departure time: 10:35 AM.,TPE,Arrival time: 1:20 PM.,LAX,JAL American,1 stop,5 hr 45 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 802 AA 26,Economy Economy,"$1,625"
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TPE,Arrival time: 2:44 PM.,BUR,EVA Air United,1 stop,6 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 8 UA 1428,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 2:25 PM.,TPE,Arrival time: 5:45 PM.,LAX,EVA Air United,1 stop,4 hr 40 min,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 855 UA 802,Economy Economy,$910
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 10:40 AM.,LAX,EVA Air United,1 stop,6 hr 40 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 UA 33,Economy Economy,$732
+2025-01-21 Tuesday,Departure time: 9:50 AM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,4 hr 50 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 469 CX 882,Economy Economy,$937
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 2:41 PM.,LAX,United United,1 stop,6 hr 35 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 1962,Economy Economy,$975
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 2:44 PM.,BUR,United United,1 stop,6 hr 45 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,UA 872 UA 1428,Economy Economy,$871
+2025-01-21 Tuesday,Departure time: 2:20 AM.,TPE,Arrival time: 6:00 AM.,LAX,Jetstar American,1 stop,6 hr 40 min,未找到飛行時間,Yes,Airbus A320 Boeing 787,GK 12 AA 170,Economy Premium Economy,"$1,263"
+2025-01-21 Tuesday,Departure time: 9:00 AM.,TSA,Arrival time: 12:40 PM.,LAX,China Airlines United,1 stop,6 hr 50 min,未找到飛行時間,Yes,Airbus A330 Boeing 787-10,CI 220 UA 38,Business Class Economy,"$2,525"
+2025-01-21 Tuesday,Departure time: 8:50 AM.,TPE,Arrival time: 12:40 PM.,LAX,EVA Air United,1 stop,6 hr 45 min,未找到飛行時間,Yes,Airbus A330 Boeing 787-10,BR 198 UA 38,Economy Economy,$731
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TSA,Arrival time: 1:20 PM.,LAX,JAL American,1 stop,7 hr 5 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 AA 26,Business Class Business Class,"$4,656"
+2025-01-21 Tuesday,Departure time: 5:00 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,5 hr 20 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 421 CX 880,Economy Economy,$546
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 11:15 AM.,LAX,EVA Air Singapore Airlines,1 stop,7 hr 10 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 777,BR 192 SQ 12,Economy Economy,"$4,019"
+2025-01-21 Tuesday,Departure time: 10:45 AM.,TPE,Arrival time: 2:51 PM.,LAX,Delta Delta,1 stop,5 hr 55 min,未找到飛行時間,Yes,Airbus A330-900neo Airbus A321neo,DL 68 DL 2752,Economy Economy,$596
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,"Arrival time: 12:06 AM on  Wednesday, January 22.",LAX,EVA Air United,1 stop,7 hr 45 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,BR 18 UA 2681,Economy Economy,"$3,288"
+2025-01-21 Tuesday,Departure time: 1:30 PM.,TSA,Arrival time: 5:50 PM.,LAX,ANA ANA,1 stop,7 hr 20 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 852 NH 106,Economy Premium Economy,"$1,584"
+2025-01-21 Tuesday,Departure time: 7:55 AM.,TPE,Arrival time: 12:40 PM.,LAX,EVA Air United,1 stop,7 hr 40 min,未找到飛行時間,Yes,Airbus A330 Boeing 787-10,BR 184 UA 38,Economy Economy,$731
+2025-01-21 Tuesday,Departure time: 8:20 AM.,TPE,Arrival time: 1:20 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,6 hr 10 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 407 CX 882,Economy Economy,$769
+2025-01-21 Tuesday,Departure time: 3:50 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,6 hr 30 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 443 CX 880,Economy Economy,$546
+2025-01-21 Tuesday,Departure time: 12:25 PM.,TPE,Arrival time: 5:45 PM.,LAX,EVA Air United,1 stop,6 hr 45 min,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 869 UA 802,Economy Economy,$910
+2025-01-21 Tuesday,Departure time: 12:25 PM.,TPE,Arrival time: 5:45 PM.,LAX,Cathay Pacific United,1 stop,6 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CX 461 UA 802,Economy Economy,$948
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 12:40 PM.,LAX,EVA Air United,1 stop,8 hr 35 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787-10,BR 192 UA 38,Economy Economy,$721
+2025-01-21 Tuesday,Departure time: 1:35 PM.,TPE,Arrival time: 7:00 PM.,LAX,China Airlines Philippine Airlines,1 stop,6 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 703 PR 102,Economy Economy,$782
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 4:51 PM.,LAX,United United,1 stop,8 hr 45 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 1960,Economy Economy,$975
+2025-01-21 Tuesday,Departure time: 2:10 PM.,TPE,Arrival time: 7:55 PM.,LAX,Singapore Airlines Singapore Airlines,1 stop,1 hr 50 min,未找到飛行時間,Yes,Boeing 787 Airbus A350,SQ 877 SQ 38,Economy Economy,"$1,344"
+2025-01-21 Tuesday,Departure time: 7:55 AM.,TPE,Arrival time: 1:40 PM.,LAX,China Airlines Korean Air,1 stop,8 hr 20 min,未找到飛行時間,Yes,Airbus A330 Boeing 747,CI 160 KE 11,Business Class Economy,"$2,817"
+2025-01-21 Tuesday,Departure time: 10:45 AM.,TPE,Arrival time: 4:33 PM.,LAX,Delta Delta,1 stop,7 hr 45 min,未找到飛行時間,Yes,Airbus A330-900neo Boeing 737,DL 68 DL 2830,Economy Economy,$596
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 2:05 PM.,LAX,EVA Air ANA,1 stop,10 hr,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 NH 126,Economy Premium Economy,"$2,119"
+2025-01-21 Tuesday,Departure time: 2:20 AM.,TPE,Arrival time: 9:15 AM.,LAX,Jetstar JAL,1 stop,10 hr,未找到飛行時間,Yes,Airbus A320 Boeing 777,GK 12 JL 16,Economy Economy,"$1,868"
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 6:06 PM.,LAX,United United,1 stop,10 hr,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,UA 872 UA 1754,Economy Economy,$975
+2025-01-21 Tuesday,Departure time: 10:45 AM.,TPE,Arrival time: 5:45 PM.,LAX,Cathay Pacific United,1 stop,8 hr 5 min,未找到飛行時間,Yes,Boeing 777 Boeing 787,CX 489 UA 802,Economy Economy,$948
+2025-01-21 Tuesday,Departure time: 2:20 AM.,TPE,Arrival time: 9:50 AM.,LAX,Jetstar JAL,1 stop,10 hr 45 min,未找到飛行時間,Yes,Airbus A320 Boeing 787,GK 12 JL 62,Economy Economy,"$1,861"
+2025-01-21 Tuesday,Departure time: 1:20 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,9 hr,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 495 CX 880,Economy Economy,$688
+2025-01-21 Tuesday,Departure time: 7:05 AM.,TPE,Arrival time: 2:50 PM.,LAX,EVA Air Asiana,1 stop,10 hr 10 min,未找到飛行時間,Yes,Airbus A321 Airbus A350,BR 170 OZ 204,Economy Economy,"$1,473"
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 7:32 AM on  Wednesday, January 22.",LAX,China Airlines Delta,1 stop,11 hr 10 min,未找到飛行時間,Yes,Boeing 777 Airbus A320,CI 4 DL 1598,Economy Economy,$705
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 7:33 AM on  Wednesday, January 22.",LAX,China Airlines United,1 stop,11 hr 10 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,CI 4 UA 502,Economy Economy,"$3,553"
+2025-01-21 Tuesday,Departure time: 9:50 AM.,TPE,Arrival time: 5:45 PM.,LAX,EVA Air United,1 stop,9 hr 15 min,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 867 UA 802,Economy Economy,$910
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TPE,Arrival time: 7:28 PM.,BUR,EVA Air United,1 stop,11 hr 35 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 8 UA 5927,Economy Economy,"$1,523"
+2025-01-21 Tuesday,Departure time: 11:00 AM.,TPE,Arrival time: 7:00 PM.,LAX,XiamenAir XiamenAir,1 stop,10 hr 10 min,未找到飛行時間,Yes,Boeing 737 Boeing 787,MF 888 MF 829,Economy Economy,$973
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 7:33 AM on  Wednesday, January 22.",LAX,EVA Air United,1 stop,11 hr 30 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,BR 28 UA 502,Economy Economy,"$3,288"
+2025-01-21 Tuesday,Departure time: 9:45 PM.,TPE,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,Hong Kong Airlines United,1 stop,9 hr 40 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,HX 283 UA 153,Economy Premium Economy,"$4,019"
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 7:28 PM.,BUR,United United,1 stop,11 hr 30 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,UA 872 UA 5927,Economy Economy,$871
+2025-01-21 Tuesday,Departure time: 2:20 AM.,TPE,Arrival time: 10:40 AM.,LAX,Jetstar United,1 stop,11 hr 20 min,未找到飛行時間,Yes,Airbus A320 Boeing 787,GK 12 UA 33,Economy Economy,"$2,097"
+2025-01-21 Tuesday,Departure time: 12:25 PM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,9 hr 55 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 461 CX 880,Economy Economy,$546
+2025-01-21 Tuesday,Departure time: 12:05 AM.,TPE,Arrival time: 8:38 AM.,LAX,STARLUX Airlines Alaska,1 stop,12 hr 10 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,JX 12 AS 1049,Economy Economy,$791
+2025-01-21 Tuesday,Departure time: 10:20 AM.,TPE,Arrival time: 7:00 PM.,LAX,Philippine Airlines Philippine Airlines,1 stop,9 hr 55 min,未找到飛行時間,Yes,Airbus A321 Boeing 777,PR 891 PR 102,Economy Economy,$943
+2025-01-21 Tuesday,Departure time: 9:15 PM.,TPE,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,Cathay Pacific United,1 stop,10 hr,未找到飛行時間,Yes,Boeing 777 Boeing 787,CX 479 UA 153,Economy Economy,$793
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 7:56 PM.,LAX,United United,1 stop,11 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 1812,Economy Economy,$975
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 8:38 AM on  Wednesday, January 22.",LAX,China Airlines Alaska,1 stop,12 hr 10 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 9 Passenger,CI 4 AS 1049,Economy Economy,$712
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TPE,Arrival time: 8:49 PM.,BUR,EVA Air Alaska,1 stop,13 hr 6 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 8 AS 3354,Economy Economy,$816
+2025-01-21 Tuesday,Departure time: 8:05 AM.,TPE,Arrival time: 5:45 PM.,LAX,EVA Air United,1 stop,11 hr,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 851 UA 802,Economy Economy,$910
+2025-01-21 Tuesday,Departure time: 8:15 PM.,TPE,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,Cathay Pacific United,1 stop,11 hr 5 min,未找到飛行時間,Yes,Airbus A350 Boeing 787,CX 531 UA 153,Business Class Business Class,"$3,363"
+2025-01-21 Tuesday,Departure time: 12:05 AM.,TPE,Arrival time: 9:54 AM.,BUR,STARLUX Airlines Alaska,1 stop,13 hr 50 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 3333,Economy Economy,$813
+2025-01-21 Tuesday,Departure time: 10:45 AM.,TPE,Arrival time: 8:46 PM.,LAX,Delta Delta,1 stop,11 hr 54 min,未找到飛行時間,Yes,Airbus A330-900neo Boeing 737,DL 68 DL 2861,Economy Economy,$680
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 9:54 AM on  Wednesday, January 22.",BUR,China Airlines Alaska,1 stop,13 hr 50 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,CI 4 AS 3333,Economy Economy,"$2,636"
+2025-01-21 Tuesday,Departure time: 10:45 AM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,11 hr 25 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 489 CX 880,Economy Economy,$546
+2025-01-21 Tuesday,Departure time: 9:50 PM.,TPE,"Arrival time: 8:00 AM on  Wednesday, January 22.",LAX,Philippine Airlines Philippine Airlines,1 stop,11 hr 10 min,未找到飛行時間,Yes,Airbus A321 Boeing 777,PR 895 PR 112,Economy Economy,$943
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 9:57 AM on  Wednesday, January 22.",LAX,China Airlines Delta,1 stop,13 hr 30 min,未找到飛行時間,Yes,Boeing 777 Airbus A320,CI 4 DL 1421,Economy Economy,$796
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 9:49 AM on  Wednesday, January 22.",BUR,EVA Air United,1 stop,13 hr 55 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 28 UA 1965,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 7:40 PM.,TPE,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,Cathay Pacific United,1 stop,11 hr 40 min,未找到飛行時間,Yes,Boeing 777 Boeing 787,CX 451 UA 153,Economy Economy,$793
+2025-01-21 Tuesday,Departure time: 8:40 AM.,TPE,Arrival time: 7:00 PM.,LAX,Mandarin Airlines XiamenAir,1 stop,12 hr 30 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,AE 991 MF 829,Economy Economy,"$1,367"
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 9:54 AM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,14 hr 10 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 28 AS 3333,Economy Economy,$816
+2025-01-21 Tuesday,Departure time: 7:30 PM.,TPE,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,Cathay Pacific United,1 stop,11 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 787,CX 565 UA 153,Economy Economy,$793
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 5:50 PM.,LAX,EVA Air ANA,1 stop,13 hr 45 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 192 NH 106,Economy Premium Economy,"$2,119"
+2025-01-21 Tuesday,Departure time: 7:00 AM.,TPE,Arrival time: 5:45 PM.,LAX,EVA Air United,1 stop,12 hr 5 min,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 891 UA 802,Economy Economy,$910
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TPE,Arrival time: 10:15 PM.,BUR,EVA Air United,1 stop,14 hr 24 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 8 UA 1300,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 7:00 PM.,TPE,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,EVA Air United,1 stop,12 hr 35 min,未找到飛行時間,Yes,Airbus A321 Boeing 787,BR 809 UA 153,Economy Economy,$754
+2025-01-21 Tuesday,Departure time: 11:55 PM.,TPE,"Arrival time: 10:58 AM on  Wednesday, January 22.",LAX,China Airlines WestJet,1 stop,13 hr 40 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,CI 32 WS 1696,Economy Economy,"$1,060"
+2025-01-21 Tuesday,Departure time: 9:50 AM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,12 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 469 CX 880,Economy Economy,$607
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,Arrival time: 10:15 PM.,BUR,United United,1 stop,14 hr 19 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,UA 872 UA 1300,Economy Economy,$871
+2025-01-21 Tuesday,Departure time: 11:55 PM.,TPE,"Arrival time: 11:10 AM on  Wednesday, January 22.",LAX,EVA Air Air Canada,1 stop,13 hr 35 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 10 AC 552,Economy Economy,"$1,330"
+2025-01-21 Tuesday,Departure time: 12:25 AM.,TPE,Arrival time: 11:45 AM.,LAX,KLM KLM,1 stop,1 hr 25 min,未找到飛行時間,Yes,Boeing 787 Boeing 787-10,KL 808 KL 601,Economy Economy,"$1,927"
+2025-01-21 Tuesday,Departure time: 7:35 AM.,TPE,Arrival time: 7:00 PM.,LAX,China Airlines Philippine Airlines,1 stop,12 hr 35 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 701 PR 102,Economy Economy,$748
+2025-01-21 Tuesday,Departure time: 11:40 PM.,TPE,"Arrival time: 11:05 AM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,14 hr 20 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 737MAX 9 Passenger,BR 26 AS 1290,Economy Economy,$750
+2025-01-21 Tuesday,Departure time: 11:35 PM.,TPE,"Arrival time: 11:05 AM on  Wednesday, January 22.",BUR,China Airlines Alaska,1 stop,14 hr 15 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,CI 22 AS 1290,Economy Economy,"$2,645"
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,"Arrival time: 7:33 AM on  Wednesday, January 22.",LAX,EVA Air United,1 stop,15 hr 10 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,BR 18 UA 502,Economy Economy,"$3,288"
+2025-01-21 Tuesday,Departure time: 9:15 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,13 hr,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 479 CX 884,Economy Economy,$561
+2025-01-21 Tuesday,Departure time: 12:05 AM.,TPE,Arrival time: 12:08 PM.,LAX,STARLUX Airlines Alaska,1 stop,15 hr 47 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 2149,Economy Economy,$791
+2025-01-21 Tuesday,Departure time: 11:00 PM.,TPE,"Arrival time: 11:05 AM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,14 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 9 Passenger,BR 24 AS 1290,Economy Economy,$882
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 12:08 PM on  Wednesday, January 22.",LAX,China Airlines Alaska,1 stop,15 hr 47 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,CI 4 AS 2149,Economy Economy,$712
+2025-01-21 Tuesday,Departure time: 8:20 AM.,TPE,Arrival time: 8:55 PM.,LAX,Cathay Pacific Cathay Pacific,1 stop,13 hr 55 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 407 CX 880,Economy Economy,$546
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TPE,"Arrival time: 12:06 AM on  Wednesday, January 22.",LAX,EVA Air United,1 stop,16 hr 5 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,BR 8 UA 2681,Economy Economy,"$3,288"
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 12:22 PM on  Wednesday, January 22.",LAX,China Airlines Delta,1 stop,15 hr 55 min,未找到飛行時間,Yes,Boeing 777 Airbus A320,CI 4 DL 1715,Economy Economy,$705
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 12:10 PM on  Wednesday, January 22.",BUR,EVA Air United,1 stop,16 hr 17 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 28 UA 2441,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 8:15 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,14 hr 5 min,未找到飛行時間,Yes,Airbus A350 Boeing 777,CX 531 CX 884,Economy Economy,$704
+2025-01-21 Tuesday,Departure time: 10:10 PM.,TPE,"Arrival time: 11:05 AM on  Wednesday, January 22.",LAX,Turkish Airlines Turkish Airlines,1 stop,2 hr 5 min,未找到飛行時間,Yes,Boeing 787 Airbus A350,TK 25 TK 179,Economy Economy,"$1,395"
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,"Arrival time: 12:06 AM on  Wednesday, January 22.",LAX,United United,1 stop,16 hr,未找到飛行時間,Yes,Boeing 777 Boeing 737,UA 872 UA 2681,Economy Economy,$975
+2025-01-21 Tuesday,Departure time: 7:25 PM.,TPE,"Arrival time: 8:30 AM on  Wednesday, January 22.",LAX,Korean Air Korean Air,1 stop,15 hr 35 min,未找到飛行時間,Yes,Boeing 777 Airbus A380,KE 188 KE 17,Economy Economy,"$1,133"
+2025-01-21 Tuesday,Departure time: 11:40 PM.,TPE,"Arrival time: 12:45 PM on  Wednesday, January 22.",LAX,Emirates Emirates,1 stop,2 hr 55 min,未找到飛行時間,Yes,Airbus A380 Airbus A380,EK 367 EK 215,Economy Economy,"$1,286"
+2025-01-21 Tuesday,Departure time: 10:40 PM.,TPE,"Arrival time: 11:45 AM on  Wednesday, January 22.",LAX,China Airlines KLM,1 stop,1 hr 50 min,未找到飛行時間,Yes,Airbus A350 Boeing 787-10,CI 73 KL 601,Economy Economy,"$1,763"
+2025-01-21 Tuesday,Departure time: 4:50 PM.,TSA,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,ANA American,1 stop,16 hr 25 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 854 AA 170,Economy Premium Economy,"$5,609"
+2025-01-21 Tuesday,Departure time: 11:55 PM.,TPE,"Arrival time: 1:18 PM on  Wednesday, January 22.",LAX,China Airlines Air Canada,1 stop,16 hr 10 min,未找到飛行時間,Yes,Boeing 777 Canadair RJ 900,CI 32 AC 8574,Economy Economy,"$1,205"
+2025-01-21 Tuesday,Departure time: 11:55 PM.,TPE,"Arrival time: 1:18 PM on  Wednesday, January 22.",LAX,EVA Air Air Canada,1 stop,15 hr 55 min,未找到飛行時間,Yes,Boeing 777 Canadair RJ 900,BR 10 AC 8574,Economy Economy,"$1,330"
+2025-01-21 Tuesday,Departure time: 7:40 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,14 hr 40 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 451 CX 884,Economy Economy,$561
+2025-01-21 Tuesday,Departure time: 12:05 AM.,TPE,Arrival time: 1:34 PM.,BUR,STARLUX Airlines Alaska,1 stop,17 hr 33 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 2138,Economy Economy,$813
+2025-01-21 Tuesday,Departure time: 7:30 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,14 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 565 CX 884,Economy Economy,$561
+2025-01-21 Tuesday,Departure time: 4:25 PM.,TSA,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,EVA Air American,1 stop,16 hr 45 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 190 AA 170,Economy Premium Economy,"$5,692"
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 1:34 PM on  Wednesday, January 22.",BUR,China Airlines Alaska,1 stop,17 hr 33 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,CI 4 AS 2138,Economy Economy,"$2,636"
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,"Arrival time: 9:49 AM on  Wednesday, January 22.",BUR,EVA Air United,1 stop,17 hr 35 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 18 UA 1965,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,"Arrival time: 9:54 AM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,17 hr 50 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 18 AS 3333,Economy Economy,$816
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 1:34 PM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,17 hr 53 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 28 AS 2138,Economy Economy,$816
+2025-01-21 Tuesday,Departure time: 12:05 AM.,TPE,Arrival time: 2:17 PM.,LAX,STARLUX Airlines Alaska,1 stop,17 hr 59 min,未找到飛行時間,Yes,Airbus A350 Embraer 175,JX 12 AS 2146,Economy Economy,$810
+2025-01-21 Tuesday,Departure time: 3:35 PM.,TSA,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,JAL American,1 stop,17 hr 40 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 98 AA 170,Economy Premium Economy,"$2,091"
+2025-01-21 Tuesday,Departure time: 6:35 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,15 hr 45 min,未找到飛行時間,Yes,Airbus A321neo Boeing 777,CX 473 CX 884,Economy Economy,$561
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 2:17 PM on  Wednesday, January 22.",LAX,China Airlines Alaska,1 stop,17 hr 59 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,CI 4 AS 2146,Economy Economy,$712
+2025-01-21 Tuesday,Departure time: 6:25 PM.,TSA,"Arrival time: 9:15 AM on  Wednesday, January 22.",LAX,China Airlines JAL,1 stop,18 hr 10 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 222 JL 16,Economy Premium Economy,"$2,091"
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 2:44 PM on  Wednesday, January 22.",BUR,EVA Air United,1 stop,18 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 28 UA 1428,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 6:25 PM.,TSA,"Arrival time: 9:50 AM on  Wednesday, January 22.",LAX,China Airlines JAL,1 stop,18 hr 55 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 222 JL 62,Economy Premium Economy,"$2,102"
+2025-01-21 Tuesday,Departure time: 6:25 PM.,TSA,"Arrival time: 9:50 AM on  Wednesday, January 22.",LAX,China Airlines ANA,1 stop,18 hr 45 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 222 NH 6,Business Class Economy,"$2,536"
+2025-01-21 Tuesday,Departure time: 5:10 PM.,TPE,"Arrival time: 8:40 AM on  Wednesday, January 22.",LAX,Asiana Asiana,1 stop,18 hr 10 min,未找到飛行時間,Yes,Airbus A330 Airbus A380,OZ 714 OZ 202,Economy Economy,"$1,003"
+2025-01-21 Tuesday,Departure time: 11:40 PM.,TPE,"Arrival time: 3:12 PM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,18 hr 30 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 737MAX 9 Passenger,BR 26 AS 1120,Economy Economy,$750
+2025-01-21 Tuesday,Departure time: 11:35 PM.,TPE,"Arrival time: 3:12 PM on  Wednesday, January 22.",BUR,China Airlines Alaska,1 stop,18 hr 25 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,CI 22 AS 1120,Economy Economy,"$2,645"
+2025-01-21 Tuesday,Departure time: 5:15 PM.,TSA,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,China Eastern China Eastern,1 stop,18 hr 20 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,MU 5098 MU 583,Economy Economy,"$1,179"
+2025-01-21 Tuesday,Departure time: 5:00 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,17 hr 20 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 421 CX 884,Economy Economy,$561
+2025-01-21 Tuesday,Departure time: 9:15 PM.,TPE,"Arrival time: 1:20 PM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,17 hr 15 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 479 CX 882,Economy Economy,$785
+2025-01-21 Tuesday,Departure time: 11:55 PM.,TPE,"Arrival time: 4:06 PM on  Wednesday, January 22.",LAX,China Airlines Air Canada,1 stop,18 hr 50 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,CI 32 AC 556,Economy Economy,"$1,205"
+2025-01-21 Tuesday,Departure time: 11:55 PM.,TPE,"Arrival time: 4:06 PM on  Wednesday, January 22.",LAX,EVA Air Air Canada,1 stop,18 hr 35 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 10 AC 556,Economy Economy,"$1,330"
+2025-01-21 Tuesday,Departure time: 11:00 PM.,TPE,"Arrival time: 3:12 PM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,19 hr,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 9 Passenger,BR 24 AS 1120,Economy Economy,$882
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,"Arrival time: 12:10 PM on  Wednesday, January 22.",BUR,EVA Air United,1 stop,19 hr 57 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 18 UA 2441,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 4:50 PM.,TSA,"Arrival time: 9:15 AM on  Wednesday, January 22.",LAX,ANA JAL,1 stop,19 hr 45 min,未找到飛行時間,Yes,Boeing 787 Boeing 777,NH 854 JL 16,Economy Premium Economy,"$5,679"
+2025-01-21 Tuesday,Departure time: 1:30 PM.,TSA,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,ANA American,1 stop,19 hr 35 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 852 AA 170,Economy Premium Economy,"$5,609"
+2025-01-21 Tuesday,Departure time: 4:30 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,China Airlines China Eastern,1 stop,18 hr 35 min,未找到飛行時間,Yes,Airbus A350 Boeing 777,CI 503 MU 583,Economy Economy,"$1,113"
+2025-01-21 Tuesday,Departure time: 4:50 PM.,TSA,"Arrival time: 9:50 AM on  Wednesday, January 22.",LAX,ANA ANA,1 stop,20 hr 20 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 854 NH 6,Economy Economy,"$1,462"
+2025-01-21 Tuesday,Departure time: 8:15 PM.,TPE,"Arrival time: 1:20 PM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,18 hr 20 min,未找到飛行時間,Yes,Airbus A350 Boeing 777,CX 531 CX 882,Economy Economy,$952
+2025-01-21 Tuesday,Departure time: 3:50 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,18 hr 30 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CX 443 CX 884,Economy Economy,$561
+2025-01-21 Tuesday,Departure time: 11:55 PM.,TPE,"Arrival time: 5:30 PM on  Wednesday, January 22.",LAX,EVA Air United,1 stop,19 hr 55 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,BR 10 UA 387,Economy Economy,"$1,389"
+2025-01-21 Tuesday,Departure time: 11:55 PM.,TPE,"Arrival time: 5:30 PM on  Wednesday, January 22.",LAX,China Airlines United,1 stop,20 hr 10 min,未找到飛行時間,Yes,Boeing 777 Boeing 737,CI 32 UA 387,Economy Business Class,"$2,800"
+2025-01-21 Tuesday,Departure time: 7:40 PM.,TPE,"Arrival time: 1:20 PM on  Wednesday, January 22.",LAX,Cathay Pacific Cathay Pacific,1 stop,18 hr 55 min,未找到飛行時間,Yes,Boeing 777 Boeing 777,CX 451 CX 882,Economy Economy,$785
+2025-01-21 Tuesday,Departure time: 3:35 PM.,TSA,"Arrival time: 9:15 AM on  Wednesday, January 22.",LAX,JAL JAL,1 stop,21 hr,未找到飛行時間,Yes,Boeing 787 Boeing 777,JL 98 JL 16,Economy Economy,"$1,126"
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,"Arrival time: 1:34 PM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,21 hr 33 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 18 AS 2138,Economy Economy,$816
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 5:41 PM on  Wednesday, January 22.",BUR,China Airlines United,1 stop,21 hr 30 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,CI 4 UA 1434,Economy Economy,"$3,553"
+2025-01-21 Tuesday,Departure time: 3:00 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,China Eastern China Eastern,1 stop,20 hr,未找到飛行時間,Yes,Airbus A330 Boeing 777,MU 5008 MU 583,Economy Economy,"$1,179"
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 5:41 PM on  Wednesday, January 22.",BUR,EVA Air United,1 stop,21 hr 50 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,BR 28 UA 1434,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 4:25 PM.,TSA,"Arrival time: 10:40 AM on  Wednesday, January 22.",LAX,EVA Air United,1 stop,21 hr 25 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 190 UA 33,Economy Economy,$732
+2025-01-21 Tuesday,Departure time: 3:35 PM.,TSA,"Arrival time: 9:50 AM on  Wednesday, January 22.",LAX,JAL JAL,1 stop,21 hr 45 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 98 JL 62,Economy Economy,"$1,138"
+2025-01-21 Tuesday,Departure time: 6:25 PM.,TSA,"Arrival time: 12:40 PM on  Wednesday, January 22.",LAX,China Airlines United,1 stop,21 hr 25 min,未找到飛行時間,Yes,Airbus A330 Boeing 787-10,CI 222 UA 38,Business Class Economy,"$2,525"
+2025-01-21 Tuesday,Departure time: 11:40 PM.,TPE,"Arrival time: 6:14 PM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,21 hr 40 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 737MAX 9 Passenger,BR 26 AS 736,Economy Economy,$750
+2025-01-21 Tuesday,Departure time: 11:35 PM.,TPE,"Arrival time: 6:14 PM on  Wednesday, January 22.",BUR,China Airlines Alaska,1 stop,21 hr 35 min,未找到飛行時間,Yes,Airbus A350 Boeing 737MAX 9 Passenger,CI 22 AS 736,Economy Economy,"$2,645"
+2025-01-21 Tuesday,Departure time: 10:10 PM.,TPE,"Arrival time: 5:00 PM on  Wednesday, January 22.",LAX,Turkish Airlines Turkish Airlines,1 stop,7 hr 55 min,未找到飛行時間,Yes,Boeing 787 Boeing 777,TK 25 TK 9,Economy Economy,"$1,395"
+2025-01-21 Tuesday,Departure time: 7:50 PM.,TPE,"Arrival time: 2:44 PM on  Wednesday, January 22.",BUR,EVA Air United,1 stop,22 hr 30 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 8 Passenger,BR 18 UA 1428,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 11:00 PM.,TPE,"Arrival time: 6:14 PM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,22 hr 10 min,未找到飛行時間,Yes,Boeing 777 Boeing 737MAX 9 Passenger,BR 24 AS 736,Economy Economy,$882
+2025-01-21 Tuesday,Departure time: 6:25 PM.,TSA,"Arrival time: 2:05 PM on  Wednesday, January 22.",LAX,China Airlines ANA,1 stop,22 hr 50 min,未找到飛行時間,Yes,Airbus A330 Boeing 787,CI 222 NH 126,Business Class Economy,"$2,525"
+2025-01-21 Tuesday,Departure time: 11:45 PM.,TPE,"Arrival time: 7:28 PM on  Wednesday, January 22.",BUR,China Airlines United,1 stop,23 hr 15 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,CI 4 UA 5927,Economy Economy,"$3,553"
+2025-01-21 Tuesday,Departure time: 4:50 PM.,TSA,"Arrival time: 12:40 PM on  Wednesday, January 22.",LAX,ANA United,1 stop,23 hr,未找到飛行時間,Yes,Boeing 787 Boeing 787-10,NH 854 UA 38,Economy Economy,"$1,444"
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 7:28 PM on  Wednesday, January 22.",BUR,EVA Air United,1 stop,23 hr 35 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 28 UA 5927,Economy Economy,"$1,423"
+2025-01-21 Tuesday,Departure time: 4:25 PM.,TSA,"Arrival time: 12:40 PM on  Wednesday, January 22.",LAX,EVA Air United,1 stop,23 hr 20 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787-10,BR 190 UA 38,Economy Economy,$721
+2025-01-21 Tuesday,Departure time: 12:50 PM.,TPE,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,Juneyao Airlines China Eastern,1 stop,22 hr 25 min,未找到飛行時間,Yes,Airbus A320 Boeing 777,HO 1310 MU 583,Economy Economy,"$1,330"
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TSA,"Arrival time: 6:00 AM on  Wednesday, January 22.",LAX,JAL American,1 stop,23 hr 45 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,JL 96 AA 170,Business Class Premium Economy,"$2,637"
+2025-01-21 Tuesday,Departure time: 12:30 PM.,TSA,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,China Airlines China Eastern,1 stop,22 hr 55 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 201 MU 583,Economy Economy,"$1,113"
+2025-01-21 Tuesday,Departure time: 4:50 PM.,TSA,"Arrival time: 2:05 PM on  Wednesday, January 22.",LAX,ANA ANA,1 stop,24 hr 25 min,未找到飛行時間,Yes,Boeing 787 Boeing 787,NH 854 NH 126,Economy Premium Economy,"$1,343"
+2025-01-21 Tuesday,Departure time: 11:30 PM.,TPE,"Arrival time: 8:49 PM on  Wednesday, January 22.",BUR,EVA Air Alaska,1 stop,25 hr 6 min,未找到飛行時間,Yes,Boeing 777 Embraer 175,BR 28 AS 3354,Economy Economy,$816
+2025-01-21 Tuesday,Departure time: 11:30 AM.,TSA,"Arrival time: 9:05 AM on  Wednesday, January 22.",LAX,Shanghai Airlines China Eastern,1 stop,23 hr 35 min,未找到飛行時間,Yes,Boeing 737 Boeing 777,FM 852 MU 583,Economy Economy,"$1,104"
+2025-01-21 Tuesday,Departure time: 4:25 PM.,TSA,"Arrival time: 2:05 PM on  Wednesday, January 22.",LAX,EVA Air ANA,1 stop,24 hr 45 min,未找到飛行時間,Yes,Boeing 787-10 Boeing 787,BR 190 NH 126,Economy Economy,$738
+2025-01-21 Tuesday,Departure time: 11:10 AM.,TPE,"Arrival time: 9:49 AM on  Wednesday, January 22.",BUR,United United,1 stop,25 hr 50 min,未找到飛行時間,Yes,Boeing 777 Airbus A319,UA 872 UA 1965,Economy Economy,"$1,222"
+2025-01-21 Tuesday,Departure time: 10:35 AM.,TPE,"Arrival time: 11:05 AM on  Wednesday, January 22.",LAX,Turkish Airlines Turkish Airlines,1 stop,13 hr 40 min,未找到飛行時間,Yes,Boeing 787 Airbus A350,TK 125 TK 179,Economy Economy,"$1,395"
+2025-01-21 Tuesday,Departure time: 2:35 PM.,TPE,"Arrival time: 6:10 PM on  Wednesday, January 22.",LAX,China Southern China Southern,1 stop,28 hr 30 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CZ 3098 CZ 327,Economy Economy,"$2,581"
+2025-01-21 Tuesday,Departure time: 2:05 PM.,TPE,"Arrival time: 6:10 PM on  Wednesday, January 22.",LAX,China Airlines China Southern,1 stop,29 hr 15 min,未找到飛行時間,Yes,Airbus A330 Boeing 777,CI 521 CZ 327,Economy Economy,"$2,620"

@@ -1,0 +1,42 @@
+﻿出發日期,出發時間,出發機場代號,抵達時間,抵達機場代號,航空公司,停靠站數量,停留時間,飛行時間,是否過夜,機型,航班代碼,艙等,價格
+2025-01-20 Monday,Departure time: 12:50 PM.,TPE,Arrival time: 4:50 PM.,NRT,Cathay Pacific,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,CX 450,Business Class,$615
+2025-01-20 Monday,Departure time: 2:35 PM.,TPE,Arrival time: 6:40 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,CI 108,Business Class,$659
+2025-01-20 Monday,Departure time: 8:30 AM.,TPE,Arrival time: 12:30 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,JX 800,Business Class,$664
+2025-01-20 Monday,Departure time: 10:35 AM.,TPE,Arrival time: 2:40 PM.,NRT,JAL,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,JL 802,Business Class,$770
+2025-01-20 Monday,Departure time: 3:00 PM.,TPE,Arrival time: 7:00 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,JX 804,Business Class,$664
+2025-01-20 Monday,Departure time: 9:30 AM.,TPE,Arrival time: 1:30 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,CI 100,Business Class,$702
+2025-01-20 Monday,Departure time: 6:25 PM.,TSA,Arrival time: 10:15 PM.,HND,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,CI 222,Business Class,$727
+2025-01-20 Monday,Departure time: 3:20 PM.,TPE,Arrival time: 7:20 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,BR 196,Business Class,$804
+2025-01-20 Monday,Departure time: 4:25 PM.,TSA,Arrival time: 8:20 PM.,HND,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,BR 190,Business Class,$854
+2025-01-20 Monday,Departure time: 1:25 PM.,TPE,Arrival time: 5:30 PM.,NRT,JAL,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,JL 8664,Business Class,"$1,014"
+2025-01-20 Monday,Departure time: 10:15 AM.,TPE,Arrival time: 2:15 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,JX 802,Business Class,"$1,018"
+2025-01-20 Monday,Departure time: 7:55 AM.,TPE,Arrival time: 12:00 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,BR 184,Business Class,"$1,045"
+2025-01-20 Monday,Departure time: 8:50 AM.,TPE,Arrival time: 12:55 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,BR 198,Business Class,"$1,045"
+2025-01-20 Monday,Departure time: 9:30 AM.,TSA,Arrival time: 1:20 PM.,HND,JAL,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,JL 96,Business Class,"$1,061"
+2025-01-20 Monday,Departure time: 3:35 PM.,TSA,Arrival time: 7:25 PM.,HND,JAL,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,JL 98,Business Class,"$1,061"
+2025-01-20 Monday,Departure time: 7:15 AM.,TSA,Arrival time: 11:05 AM.,HND,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,BR 192,Business Class,"$1,065"
+2025-01-20 Monday,Departure time: 1:30 PM.,TSA,Arrival time: 5:30 PM.,HND,ANA,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,NH 852,Business Class,"$1,065"
+2025-01-20 Monday,Departure time: 4:50 PM.,TSA,Arrival time: 8:40 PM.,HND,ANA,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,NH 854,Business Class,"$1,065"
+2025-01-20 Monday,Departure time: 9:00 AM.,TSA,Arrival time: 12:50 PM.,HND,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,CI 220,Business Class,"$1,070"
+2025-01-20 Monday,Departure time: 12:35 PM.,TPE,Arrival time: 4:35 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Boeing 777,CI 104,Business Class,"$1,289"
+出發日期,出發時間,出發機場代號,抵達時間,抵達機場代號,航空公司,停靠站數量,停留時間,飛行時間,是否過夜,機型,航班代碼,艙等,價格
+2025-01-21 Tuesday,Departure time: 2:35 PM.,TPE,Arrival time: 6:40 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,CI 108,Business Class,$659
+2025-01-21 Tuesday,Departure time: 12:50 PM.,TPE,Arrival time: 4:50 PM.,NRT,Cathay Pacific,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,CX 450,Business Class,$759
+2025-01-21 Tuesday,Departure time: 3:20 PM.,TPE,Arrival time: 7:20 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,BR 196,Business Class,$804
+2025-01-21 Tuesday,Departure time: 6:25 PM.,TSA,Arrival time: 10:15 PM.,HND,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,CI 222,Business Class,$727
+2025-01-21 Tuesday,Departure time: 4:25 PM.,TSA,Arrival time: 8:20 PM.,HND,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,BR 190,Business Class,$854
+2025-01-21 Tuesday,Departure time: 10:35 AM.,TPE,Arrival time: 2:40 PM.,NRT,JAL,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,JL 802,Business Class,"$1,014"
+2025-01-21 Tuesday,Departure time: 1:25 PM.,TPE,Arrival time: 5:30 PM.,NRT,JAL,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,JL 8664,Business Class,"$1,014"
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TPE,Arrival time: 1:30 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,CI 100,Business Class,"$1,035"
+2025-01-21 Tuesday,Departure time: 12:35 PM.,TPE,Arrival time: 4:35 PM.,NRT,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,CI 104,Business Class,"$1,035"
+2025-01-21 Tuesday,Departure time: 7:55 AM.,TPE,Arrival time: 12:00 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,BR 184,Business Class,"$1,045"
+2025-01-21 Tuesday,Departure time: 8:50 AM.,TPE,Arrival time: 12:55 PM.,NRT,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,BR 198,Business Class,"$1,045"
+2025-01-21 Tuesday,Departure time: 9:30 AM.,TSA,Arrival time: 1:20 PM.,HND,JAL,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,JL 96,Business Class,"$1,061"
+2025-01-21 Tuesday,Departure time: 7:15 AM.,TSA,Arrival time: 11:05 AM.,HND,EVA Air,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,BR 192,Business Class,"$1,065"
+2025-01-21 Tuesday,Departure time: 1:30 PM.,TSA,Arrival time: 5:30 PM.,HND,ANA,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,NH 852,Business Class,"$1,065"
+2025-01-21 Tuesday,Departure time: 4:50 PM.,TSA,Arrival time: 8:40 PM.,HND,ANA,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,NH 854,Business Class,"$1,065"
+2025-01-21 Tuesday,Departure time: 9:00 AM.,TSA,Arrival time: 12:50 PM.,HND,China Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,CI 220,Business Class,"$1,070"
+2025-01-21 Tuesday,Departure time: 8:30 AM.,TPE,Arrival time: 12:30 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,JX 800,Business Class,"$1,284"
+2025-01-21 Tuesday,Departure time: 10:15 AM.,TPE,Arrival time: 2:15 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,JX 802,Business Class,"$1,284"
+2025-01-21 Tuesday,Departure time: 3:00 PM.,TPE,Arrival time: 7:00 PM.,NRT,STARLUX Airlines,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,JX 804,Business Class,"$1,284"
+2025-01-21 Tuesday,Departure time: 3:35 PM.,TSA,Arrival time: 7:25 PM.,HND,JAL,Nonstop,未找到停留時間,未找到飛行時間,No,Airbus A330,JL 98,Business Class,"$1,314"
