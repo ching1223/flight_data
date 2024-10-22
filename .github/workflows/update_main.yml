@@ -16,7 +16,7 @@ jobs:
           - 'code/Tokyo/tokyo.py'
           - 'code/Sydney/sydney.py'
           - 'code/HongKong/hongkong.py'
-          - 'code/Losangeles/losangeles.py'
+          - 'code/Los Angeles/losangeles.py'
           - 'code/London/london.py'
           - 'code/Newyork/newyork.py'
 
