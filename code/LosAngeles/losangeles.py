@@ -60,7 +60,7 @@ def scrape_flights(start_date_str, end_date_str):
     while current_date <= end_date:
         print(f"正在抓取日期: {current_date.strftime('%Y-%m-%d')}")
 
-        url = "https://www.google.com/travel/flights/search?tfs=CBwQAhosEgoyMDI0LTEyLTE5KAFqDAgCEggvbS8wZnRreHIOCAMSCi9tLzAzMHFiM3RAAUgBcAGCAQsI____________AZgBAg&tfu=EgQIBRABIgA&authuser=0"
+        url = "https://www.google.com/travel/flights/search?tfs=CBwQAhosEgoyMDI1LTAxLTE5KAFqDAgCEggvbS8wZnRreHIOCAMSCi9tLzAzMHFiM3RAAUgBcAGCAQsI____________AZgBAg&tfu=EgQIBRABIgA&authuser=0"
         driver.get(url)
 
         # 點擊日期選擇器
@@ -125,7 +125,7 @@ def scrape_flights(start_date_str, end_date_str):
         today_date = datetime.now().strftime("%m%d")
         
         # 準備寫入 CSV 檔案
-        with open(f'/Users/yuchingchen/Documents/專題/data/losangeles_{today_date}.csv', 'a', newline='', encoding='utf-8-sig') as csv_file:
+        with open(f'data/losangeles_{today_date}.csv', 'a', newline='', encoding='utf-8-sig') as csv_file:
             csv_writer = csv.writer(csv_file)
 
             # 寫入標題
