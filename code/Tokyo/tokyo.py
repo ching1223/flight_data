@@ -63,7 +63,7 @@ def scrape_flights(start_date_str, end_date_str):
     while current_date <= end_date:
         print(f"正在抓取日期: {current_date.strftime('%Y-%m-%d')}")
 
-        url = "https://www.google.com/travel/flights/search?tfs=CBwQAhoqEgoyMDI1LTAxLTE5KABqDAgCEggvbS8wZnRreHIMCAISCC9tLzA3ZGZrQAFIAXABggELCP___________wGYAQI&tfu=EgIIACIA&authuser=0"
+        url = "https://www.google.com/travel/flights/search?tfs=CBwQAhoqEgoyMDI1LTAxLTE5KABqDAgCEggvbS8wZnRreHIMCAISCC9tLzA3ZGZrQAFIAXABggELCP___________wGYAQI&hl=zh-TW&gl=TW"
         driver.get(url)
 
         # 點擊日期選擇器
@@ -161,13 +161,13 @@ def scrape_flights(start_date_str, end_date_str):
                     try:                    
                         # 抓取出發時間
                         departure_time_element = flight_element.find_element(By.XPATH, './/div[@class="wtdjmc YMlIz ogfYpf tPgKwe"]').get_attribute("aria-label")
-                        departure_time = departure_time_element.split(":")[-1].strip()
-                        departure_time = departure_time.replace(".", "").strip()
+                        departure_time = departure_time_element.split("：")[-1].strip()
+                        departure_time = departure_time.replace("。", "").strip()
 
                         # 抓取抵達時間
                         arrival_time_element = flight_element.find_element(By.XPATH, ".//div[@class='XWcVob YMlIz ogfYpf tPgKwe']").get_attribute("aria-label")
-                        arrival_time = arrival_time_element.split(":")[-1].strip()
-                        arrival_time = arrival_time.replace(".", "").strip()
+                        arrival_time = arrival_time_element.split("：")[-1].strip()
+                        arrival_time = arrival_time.replace("。", "").strip()
 
                         # 抓取出發機場代號
                         departure_airport = flight_element.find_element(By.XPATH, ".//div[@class='G2WY5c sSHqwe ogfYpf tPgKwe']//div").get_attribute("innerHTML")

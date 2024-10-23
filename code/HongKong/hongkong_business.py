@@ -44,8 +44,6 @@ def calculate_dates(today_date_str):
 
 # 設置 Selenium 驅動
 options = Options()
-options.add_argument("--lang=zh-TW")  # 設置為繁體中文台灣
-options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")  # 設定User-Agent
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-gpu")
@@ -65,7 +63,7 @@ def scrape_flights(start_date_str, end_date_str):
     while current_date <= end_date:
         print(f"正在抓取日期: {current_date.strftime('%Y-%m-%d')}")
 
-        url = "https://www.google.com/travel/flights/search?tfs=CBwQAhoqEgoyMDI1LTAxLTE5KABqDAgCEggvbS8wZnRreHIMCAISCC9tLzAzaDY0QAFIA3ABggELCP___________wGYAQI&authuser=0"
+        url = "https://www.google.com/travel/flights/search?tfs=CBwQAhoqEgoyMDI1LTAxLTE5KABqDAgCEggvbS8wZnRreHIMCAMSCC9tLzAzaDY0QAFIA3ABggELCP___________wGYAQI&tfu=EgYIARABGAA&hl=zh-TW&gl=TW"
         driver.get(url)
 
         # 點擊日期選擇器
