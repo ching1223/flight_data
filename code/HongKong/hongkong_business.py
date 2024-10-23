@@ -44,6 +44,8 @@ def calculate_dates(today_date_str):
 
 # 設置 Selenium 驅動
 options = Options()
+options.add_argument("--lang=zh-TW")  # 設置為繁體中文台灣
+options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")  # 設定User-Agent
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-gpu")
@@ -161,13 +163,13 @@ def scrape_flights(start_date_str, end_date_str):
                     try:                    
                         # 抓取出發時間
                         departure_time_element = flight_element.find_element(By.XPATH, './/div[@class="wtdjmc YMlIz ogfYpf tPgKwe"]').get_attribute("aria-label")
-                        departure_time = departure_time_element.split(":")[-1].strip()
-                        departure_time = departure_time.replace(".", "").strip()
+                        departure_time = departure_time_element.split("：")[-1].strip()
+                        departure_time = departure_time.replace("。", "").strip()
 
                         # 抓取抵達時間
                         arrival_time_element = flight_element.find_element(By.XPATH, ".//div[@class='XWcVob YMlIz ogfYpf tPgKwe']").get_attribute("aria-label")
-                        arrival_time = arrival_time_element.split(":")[-1].strip()
-                        arrival_time = arrival_time.replace(".", "").strip()
+                        arrival_time = arrival_time_element.split("：")[-1].strip()
+                        arrival_time = arrival_time.replace("。", "").strip()
 
                         # 抓取出發機場代號
                         departure_airport = flight_element.find_element(By.XPATH, ".//div[@class='G2WY5c sSHqwe ogfYpf tPgKwe']//div").get_attribute("innerHTML")
@@ -216,7 +218,7 @@ def scrape_flights(start_date_str, end_date_str):
                         
                         # 抓取飛行時間
                         travel_time_element = flight_element.find_element(By.XPATH, ".//div[@class='P102Lb sSHqwe y52p7d']").get_attribute("innerHTML")
-                        match = re.search(r'(\d+\s*(小時|hours?|hr)\s*\d+\s*(分鐘|minutes?|min)?|\d+\s*(小時|hours?|hr)|\d+\s*(分鐘|minutes?|min))', travel_time_element)
+                        match = re.search(r'(\d+\s*(小時|hours?|hr)(\s*\d+\s*(分鐘|minutes?|min))?)', travel_time_element)
                         flight_duration = match.group(1) if match else "未找到飛行時間"
 
                         # 抓取價格

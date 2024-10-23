@@ -3,7 +3,7 @@ name: Run Python Scripts Automatically in Pairs
 on:
   schedule:
     # 台灣時間
-    - cron: '20 9 * * *'
+    - cron: '20 10 * * *'
 
 jobs:
   run-scripts:
@@ -13,18 +13,10 @@ jobs:
       max-parallel: 2  # 一次最多執行兩個腳本
       matrix:
         script:
-          - 'code/Tokyo/tokyo.py'
-          - 'code/Tokyo/tokyo_business.py'
-          - 'code/Sydney/sydney.py'
-          - 'code/Sydney/sydney_business.py'
           - 'code/HongKong/hongkong.py'
           - 'code/HongKong/hongkong_business.py'
           - 'code/LosAngeles/losangeles.py'
           - 'code/LosAngeles/losangeles_business.py'
-          - 'code/London/london.py'
-          - 'code/London/london_business.py'
-          - 'code/NewYork/newyork.py'
-          - 'code/NewYork/newyork_business.py'
 
     steps:
     - name: Checkout repository
