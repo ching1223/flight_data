@@ -115,7 +115,7 @@ def scrape_flights(start_date_str, end_date_str):
         except Exception as e:
             print("無法找到 'Done' 按鈕", e)
         
-        time.sleep(2)
+        time.sleep(5)
 
         # 獲取所有航班連結
         flight_links = WebDriverWait(driver, 20).until(
