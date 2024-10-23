@@ -13,9 +13,6 @@ import time
 import os
 import csv
 import re
-import locale
-
-locale.setlocale(locale.LC_TIME, 'zh_TW.UTF-8')
 
 # Discord Webhook URL
 WEBHOOK_URL = "https://discord.com/api/webhooks/1295434884361228450/zwTbBwZK3hryiEqFiCa6HWGXzZtWHRldTizl4BUNyZcw_0IHb94kbmikoKwOeFObbGBk"
@@ -164,13 +161,13 @@ def scrape_flights(start_date_str, end_date_str):
                     try:                    
                         # 抓取出發時間
                         departure_time_element = flight_element.find_element(By.XPATH, './/div[@class="wtdjmc YMlIz ogfYpf tPgKwe"]').get_attribute("aria-label")
-                        departure_time = departure_time_element.split("：")[-1].strip()
-                        departure_time = departure_time.replace("。", "").strip()
+                        departure_time = departure_time_element.split(":")[-1].strip()
+                        departure_time = departure_time.replace(".", "").strip()
 
                         # 抓取抵達時間
                         arrival_time_element = flight_element.find_element(By.XPATH, ".//div[@class='XWcVob YMlIz ogfYpf tPgKwe']").get_attribute("aria-label")
-                        arrival_time = arrival_time_element.split("：")[-1].strip()
-                        arrival_time = arrival_time.replace("。", "").strip()
+                        arrival_time = arrival_time_element.split(":")[-1].strip()
+                        arrival_time = arrival_time.replace(".", "").strip()
 
                         # 抓取出發機場代號
                         departure_airport = flight_element.find_element(By.XPATH, ".//div[@class='G2WY5c sSHqwe ogfYpf tPgKwe']//div").get_attribute("innerHTML")
@@ -196,7 +193,7 @@ def scrape_flights(start_date_str, end_date_str):
                             try:
                                 # 抓取停留時間
                                 layover_info_element = driver.find_element(By.XPATH, '//div[@class = "tvtJdb eoY5cb y52p7d"]').get_attribute("innerHTML")
-                                time_pattern = r'(\d+\s*小時\s*\d+\s*分鐘|\d+\s*分鐘)'
+                                time_pattern = r'(\d+\s*(小時|hours?|hr)\s*\d+\s*(分鐘|minutes?|min)?|\d+\s*(小時|hours?|hr)|\d+\s*(分鐘|minutes?|min))'
                                 match = re.search(time_pattern, layover_info_element)
                                 layover_time = match.group(1) if match else "未找到停留時間"
                             except NoSuchElementException:
@@ -219,7 +216,7 @@ def scrape_flights(start_date_str, end_date_str):
                         
                         # 抓取飛行時間
                         travel_time_element = flight_element.find_element(By.XPATH, ".//div[@class='P102Lb sSHqwe y52p7d']").get_attribute("innerHTML")
-                        match = re.search(r'(\d+ 小時(?: \d+ 分鐘)?)', travel_time_element)
+                        match = re.search(r'(\d+\s*(小時|hours?|hr)\s*\d+\s*(分鐘|minutes?|min)?|\d+\s*(小時|hours?|hr)|\d+\s*(分鐘|minutes?|min))', travel_time_element)
                         flight_duration = match.group(1) if match else "未找到飛行時間"
 
                         # 抓取價格
