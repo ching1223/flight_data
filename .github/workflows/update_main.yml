@@ -21,10 +21,6 @@ jobs:
           - 'code/HongKong/hongkong_business.py'
           - 'code/LosAngeles/losangeles.py'
           - 'code/LosAngeles/losangeles_business.py'
-          - 'code/London/london.py'
-          - 'code/London/london_business.py'
-          - 'code/NewYork/newyork.py'
-          - 'code/NewYork/newyork_business.py'
 
     steps:
     - name: Checkout repository
