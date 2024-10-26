@@ -17,10 +17,6 @@ jobs:
           - 'code/Tokyo/tokyo_business.py'
           - 'code/Sydney/sydney.py'
           - 'code/Sydney/sydney_business.py'
-          - 'code/HongKong/hongkong.py'
-          - 'code/HongKong/hongkong_business.py'
-          - 'code/LosAngeles/losangeles.py'
-          - 'code/LosAngeles/losangeles_business.py'
 
     steps:
     - name: Checkout repository
