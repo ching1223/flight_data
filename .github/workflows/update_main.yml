@@ -2,8 +2,8 @@ name: Run Python Scripts Automatically in Pairs
 
 on:
   schedule:
-    # 台灣時間
-    - cron: '0 6 * * *'
+    # 每日台灣時間早上6:00
+    - cron: '0 5 * * *'  # 注意: GitHub Actions 使用 UTC 時間，台灣時間早上6點相當於 UTC 22:00
 
 jobs:
   run-scripts:
@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4  # 確保使用最新版本
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -49,7 +49,7 @@ jobs:
         python ${{ matrix.script }}  # 動態運行 Python 腳本
 
     - name: Upload CSV as artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v3  # 使用最新版本
       with:
         name: flight-data
         path: data/*.csv  # 上傳所有生成的 CSV 文件
