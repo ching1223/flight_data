@@ -50,4 +50,4 @@ jobs:
       uses: actions/upload-artifact@v3  # 使用最新版本
       with:
         name: flight-data
-        path: data/*.csv  # 上傳所有生成的 CSV 文件
+        path: data/loshkgbus/*.csv  # 上傳所有生成的 CSV 文件
