@@ -3,7 +3,7 @@ name: Run Two Python Scripts Automatically
 on:
   schedule:
     # 每日台灣時間13:00
-    - cron: '0 9 * * *'  # 注意: GitHub Actions 使用 UTC 時間
+    - cron: '30 9 * * *'  # 注意: GitHub Actions 使用 UTC 時間
 
 jobs:
   run-scripts:
