@@ -3,7 +3,7 @@ name: Run Two Python Scripts Automatically
 on:
   schedule:
     # 每日台灣時間13:00
-    - cron: '30 9 * * *'  # 注意: GitHub Actions 使用 UTC 時間
+    - cron: '0 6 * * *'  # 注意: GitHub Actions 使用 UTC 時間
 
 jobs:
   run-scripts:
@@ -13,8 +13,8 @@ jobs:
       max-parallel: 2  # 一次最多執行兩個腳本
       matrix:
         script:
-          - 'code/LosAngeles/losangeles_business.py'
-          - 'code/HongKong/hongkong_business.py'  # 僅保留這兩個腳本
+          - 'code/LosAngeles/losangeles.py'
+          - 'code/LosAngeles/losangeles_business.py'  # 僅保留這兩個腳本
 
     steps:
     - name: Checkout repository
