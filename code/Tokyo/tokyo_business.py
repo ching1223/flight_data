@@ -184,7 +184,7 @@ def scrape_flights(start_date_str, end_date_str):
 
                         try:
                             # 抓取停靠站數量
-                            layover_element = driver.find_element(By.XPATH, "//div[@class='EfT7Ae AdWm1c tPgKwe']//span[@class='ogfYpf']").get_attribute("aria-label")
+                            layover_element = flight_element.find_element(By.XPATH, "//div[@class='EfT7Ae AdWm1c tPgKwe']//span[@class='ogfYpf']").get_attribute("aria-label")
                             layover = layover_element.split(" flight.")[0]  # 提取 "1 stop" 或 "Non-stop"
                         except NoSuchElementException:
                             layover = "Non-stop"
@@ -192,7 +192,7 @@ def scrape_flights(start_date_str, end_date_str):
                         if layover != "直達航班。":
                             try:
                                 # 抓取停留時間
-                                layover_info_element = driver.find_element(By.XPATH, '//div[@class = "tvtJdb eoY5cb y52p7d"]').get_attribute("innerHTML")
+                                layover_info_element = flight_element.find_element(By.XPATH, '//div[@class = "tvtJdb eoY5cb y52p7d"]').get_attribute("innerHTML")
                                 time_pattern = r'(\d+\s*(小時|hours?|hr)\s*\d+\s*(分鐘|minutes?|min)?|\d+\s*(小時|hours?|hr)|\d+\s*(分鐘|minutes?|min))'
                                 match = re.search(time_pattern, layover_info_element)
                                 layover_time = match.group(1) if match else "未找到停留時間"
@@ -203,13 +203,13 @@ def scrape_flights(start_date_str, end_date_str):
 
                         try:
                             # 檢查是否有 "Overnight" 元素
-                            overnight_element = driver.find_element(By.XPATH, '//div[@class="qj0iCb" and contains(text(), "Overnight")]')
+                            overnight_element = flight_element.find_element(By.XPATH, '//div[@class="qj0iCb" and contains(text(), "Overnight")]')
                             overnight = "Yes"
                         except NoSuchElementException:
                             overnight = "No"
                             
                         # 抓取機型
-                        aircraft = driver.find_element(By.XPATH, './/span[@class="Xsgmwe"][3]').get_attribute("innerHTML")
+                        aircraft = flight_element.find_element(By.XPATH, './/span[@class="Xsgmwe"][3]').get_attribute("innerHTML")
                         
                         # 抓取艙等
                         cabin_class = flight_element.find_element(By.XPATH, './/span[@class="Xsgmwe"][2]').get_attribute("innerHTML")
