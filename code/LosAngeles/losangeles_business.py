@@ -61,9 +61,14 @@ def scrape_flights(start_date_str, end_date_str):
     while current_date <= end_date:
         print(f"正在抓取日期: {current_date.strftime('%Y-%m-%d')}")
 
-        url = "https://www.google.com/travel/flights/search?tfs=CBwQAhosEgoyMDI1LTAxLTE5KAFqDAgCEggvbS8wZnRreHIOCAMSCi9tLzAzMHFiM3RAAUgDcAGCAQsI____________AZgBAg&tfu=EgYIBRABGAA&hl=zh-TW&gl=TW"
+        # 根據日期選擇網址
+        if current_date < datetime(2025, 2, 3):
+            url = "https://www.google.com/travel/flights/search?tfs=CBwQAhosEgoyMDI1LTAxLTE5KAFqDAgCEggvbS8wZnRreHIOCAMSCi9tLzAzMHFiM3RAAUgDcAGCAQsI____________AZgBAg&tfu=EgYIBRABGAA&hl=zh-TW&gl=TW"
+        else:
+            url = "https://www.google.com/travel/flights/search?tfs=CBwQAhosEgoyMDI1LTAyLTAyKAFqDAgCEggvbS8wZnRreHIOCAMSCi9tLzAzMHFiM3RAAUgDcAGCAQsI____________AZgBAg&tfu=EgYIBRABGAA&hl=zh-TW&gl=TW"
+        
         driver.get(url)
-
+        
         # 點擊日期選擇器
         try:
             departure_date_picker = WebDriverWait(driver, 10).until(
