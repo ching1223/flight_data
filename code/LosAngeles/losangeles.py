@@ -143,10 +143,10 @@ def scrape_flights(start_date_str, end_date_str):
             csv_writer.writerow([
                 "出發日期", "出發時間", "出發機場代號", 
                 "抵達時間", "抵達機場代號", "航空公司", 
-                "停靠站數量", "停留時間", "飛行時間", 
+                "停靠站數量", "停留時間", "停留城市", "飛行時間", 
                 "是否過夜", "機型", "航班代碼", "艙等", "價格"
             ])
-
+            
             # 遍歷並點擊每個航班
             for index, flight_element in enumerate(flight_links):
                 try:     
@@ -201,17 +201,33 @@ def scrape_flights(start_date_str, end_date_str):
 
                         if layover != "直達航班。":
                             try:
-                                # 嘗試抓取停留時間的內部 HTML
+                                # 嘗試抓取停留時間與停靠城市的內部 HTML
                                 layover_info_element = flight_element.find_element(By.XPATH, './/div[@class = "tvtJdb eoY5cb y52p7d"]').get_attribute("innerHTML")
+
+                                # 移除 HTML 中的 &nbsp;
+                                layover_info_element = layover_info_element.replace("&nbsp;", " ")
+                                
+                                # 停留時間的正則表達式
                                 time_pattern = r'(\d+\s*(小時|hr|hours)\s*\d+\s*(分鐘|min|minutes)|\d+\s*(小時|hr|hours)|\d+\s*(分鐘|min|minutes))'
-                                match = re.search(time_pattern, layover_info_element)
-                                layover_time = match.group(1) if match else "未找到停留時間"
-                                if not match:
+                                time_match = re.search(time_pattern, layover_info_element)
+                                layover_time = time_match.group(1) if time_match else "未找到停留時間"
+
+                                # 停靠城市的正則表達式
+                                city_pattern = r'>([^<>]*?)\s*<span dir="ltr">\((\w+)\)</span>'
+                                city_match = re.search(city_pattern, layover_info_element)
+                                layover_city = f"{city_match.group(1)} ({city_match.group(2)})" if city_match else "未找到停靠城市"
+
+                                if not time_match:
                                     print("未找到停留時間的 HTML:", layover_info_element)
+                                if not city_match:
+                                    print("未找到停靠城市的 HTML:", layover_info_element)
+
                             except NoSuchElementException:
-                                    layover_time = "未找到停留時間"
+                                layover_time = "未找到停留時間"
+                                layover_city = "未找到停靠城市"
                         else:
                             layover_time = "Non-stop"
+                            layover_city = "Non-stop"
 
                         try:
                             # 檢查是否有 "Overnight" 元素
@@ -255,7 +271,7 @@ def scrape_flights(start_date_str, end_date_str):
                         csv_writer.writerow([
                             formatted_date, departure_time, departure_airport,
                             arrival_time, arrival_airport, airline,
-                            layover, layover_time, flight_duration,
+                            layover, layover_time, layover_city, flight_duration,
                             overnight, aircraft, flight_number, cabin_class,
                             price
                         ])
