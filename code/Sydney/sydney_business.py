@@ -212,10 +212,10 @@ def scrape_flights(start_date_str, end_date_str):
                                 time_match = re.search(time_pattern, layover_info_element)
                                 layover_time = time_match.group(1) if time_match else "未找到停留時間"
 
-                                # 停靠城市的正則表達式
-                                city_pattern = r'>([^<>]*?)\s*<span dir="ltr">\((\w+)\)</span>'
+                                # 一般格式停靠城市的正則表達式
+                                city_pattern = r'>([^<>]*?)<span'
                                 city_match = re.search(city_pattern, layover_info_element)
-                                layover_city = f"{city_match.group(1)} ({city_match.group(2)})" if city_match else "未找到停靠城市"
+                                layover_city = city_match.group(1).strip() if city_match else "未找到停靠城市"
 
                                 if not time_match:
                                     print("未找到停留時間的 HTML:", layover_info_element)
