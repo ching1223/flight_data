@@ -144,6 +144,7 @@ def scrape_flights(start_date_str, end_date_str):
                 "出發日期", "出發時間", "出發機場代號", 
                 "抵達時間", "抵達機場代號", "航空公司", 
                 "停靠站數量", "停留時間", "停留城市", "飛行時間", 
+                "第一段飛行時間", "第二段飛行時間",
                 "是否過夜", "機型", "航班代碼", "艙等", "價格"
             ])
             
@@ -259,6 +260,31 @@ def scrape_flights(start_date_str, end_date_str):
 
                         except NoSuchElementException:
                             flight_duration = "未找到飛行時間"
+                        
+                        # 抓取第一段與第二段飛行時間    
+                        try:
+                            # 抓取所有符合條件的飛行時間元素
+                            flight_durations = flight_element.find_elements(By.XPATH, ".//div[@class='P102Lb sSHqwe y52p7d']")
+                            
+                            # 提取第一段與第二段飛行時間
+                            if len(flight_durations) >= 1:
+                                first_flight_duration = flight_durations[0].get_attribute("innerHTML")
+                                match = re.search(r'(\d+\s*(小時|hours?|hr)\s*\d+\s*(分鐘|minutes?|min)?|\d+\s*(小時|hours?|hr)|\d+\s*(分鐘|minutes?|min))', first_flight_duration)
+                                first_flight_duration = match.group(1) if match else "未找到第一段飛行時間"
+                            else:
+                                first_flight_duration = "未找到第一段飛行時間"
+
+                            if len(flight_durations) >= 2:
+                                second_flight_duration = flight_durations[1].get_attribute("innerHTML")
+                                match = re.search(r'(\d+\s*(小時|hours?|hr)\s*\d+\s*(分鐘|minutes?|min)?|\d+\s*(小時|hours?|hr)|\d+\s*(分鐘|minutes?|min))', second_flight_duration)
+                                second_flight_duration = match.group(1) if match else "未找到第二段飛行時間"
+                            else:
+                                second_flight_duration = "未找到第二段飛行時間"
+
+                        except Exception as e:
+                            first_flight_duration = "抓取過程發生錯誤"
+                            second_flight_duration = "抓取過程發生錯誤"
+                            print(f"錯誤詳情: {str(e)}")
 
                         # 抓取價格
                         price = flight_element.find_element(By.XPATH, './/div[contains(@class, "FpEdX")]//span').get_attribute("innerHTML")
@@ -272,6 +298,7 @@ def scrape_flights(start_date_str, end_date_str):
                             formatted_date, departure_time, departure_airport,
                             arrival_time, arrival_airport, airline,
                             layover, layover_time, layover_city, flight_duration,
+                            first_flight_duration, second_flight_duration,
                             overnight, aircraft, flight_number, cabin_class,
                             price
                         ])
