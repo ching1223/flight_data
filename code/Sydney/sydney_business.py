@@ -144,6 +144,7 @@ def scrape_flights(start_date_str, end_date_str):
                 "出發日期", "出發時間", "出發機場代號", 
                 "抵達時間", "抵達機場代號", "航空公司", 
                 "停靠站數量", "停留時間", "停留城市", "飛行時間", 
+                "第一段飛行時間", "第二段飛行時間",
                 "是否過夜", "機型", "航班代碼", "艙等", "價格"
             ])
 
@@ -297,6 +298,7 @@ def scrape_flights(start_date_str, end_date_str):
                             formatted_date, departure_time, departure_airport,
                             arrival_time, arrival_airport, airline,
                             layover, layover_time, layover_city, flight_duration,
+                            first_flight_duration, second_flight_duration,
                             overnight, aircraft, flight_number, cabin_class,
                             price
                         ])
