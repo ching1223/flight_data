@@ -15,7 +15,7 @@ import csv
 import re
 
 # Discord Webhook URL
-WEBHOOK_URL = "https://discord.com/api/webhooks/1295434884361228450/zwTbBwZK3hryiEqFiCa6HWGXzZtWHRldTizl4BUNyZcw_0IHb94kbmikoKwOeFObbGBk"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1333390754311311400/KFsDOo-xRzEvjcxSoWlT7E9FEiobY7XVHeC_RtS1-wjb-JRsVPXP-fJsI0BJba36O-_T"
 
 # 發送 Discord 通知的函數
 def send_discord_notification(message):
