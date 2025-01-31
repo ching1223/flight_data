@@ -3,7 +3,7 @@ name: Run Python Scripts Automatically in Pairs
 on:
   schedule:
     # 每日台灣時間13:00
-    - cron: '0 5 * * *'  # 注意: GitHub Actions 使用 UTC 時間，台灣時間早上6點相當於 UTC 22:00
+    - cron: '30 14 * * *'  # 注意: GitHub Actions 使用 UTC 時間，台灣時間早上13:00相當於 UTC 5:00
 
 jobs:
   run-scripts:
@@ -12,9 +12,11 @@ jobs:
     strategy:
       max-parallel: 2  # 一次最多執行兩個腳本
       matrix:
-        script:
-          - 'code/Sydney/sydney.py'
-          - 'code/Sydney/sydney_business.py'      
+        include:
+          - job_name: sydney
+            script: 'code/Sydney/sydney.py'
+          - job_name: sydney_business
+            script: 'code/Sydney/sydney_business.py'      
 
     steps:
     - name: Checkout repository
@@ -49,5 +51,5 @@ jobs:
     - name: Upload CSV as artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: flight-data
+        name: flight-data-${{ matrix.job_name }}-${{ github.run_id }}  # 動態生成唯一名稱
         path: data/*.csv  # 上傳所有生成的 CSV 文件

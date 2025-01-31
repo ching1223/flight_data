@@ -2,8 +2,8 @@ name: Run Python Scripts Automatically in Pairs
 
 on:
   schedule:
-    # 每日台灣時間13:00
-    - cron: '0 5 * * *'  # 注意: GitHub Actions 使用 UTC 時間，台灣時間早上6點相當於 UTC 22:00
+    # 每日台灣時間 13:00
+    - cron: '30 14 * * *'  # GitHub Actions 使用 UTC 時間
 
 jobs:
   run-scripts:
@@ -12,9 +12,11 @@ jobs:
     strategy:
       max-parallel: 2  # 一次最多執行兩個腳本
       matrix:
-        script:
-          - 'code/Tokyo/tokyo.py'
-          - 'code/Tokyo/tokyo_business.py'   
+        include:
+          - job_name: tokyo
+            script: 'code/Tokyo/tokyo.py'
+          - job_name: tokyo_business
+            script: 'code/Tokyo/tokyo_business.py'
 
     steps:
     - name: Checkout repository
@@ -42,6 +44,9 @@ jobs:
     - name: Set ChromeDriver Path
       run: echo "CHROMEWEBDRIVER=/usr/bin" >> $GITHUB_ENV  # 設置環境變量
 
+    - name: Clean up old data
+      run: rm -rf data/*.csv || true  # 清理舊的 CSV 文件
+
     - name: Run script
       run: |
         python ${{ matrix.script }}  # 動態運行 Python 腳本
@@ -49,5 +54,5 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
-        name: flight-data
+        name: flight-data-${{ matrix.job_name }}-${{ github.run_id }}
         path: data/*.csv  # 上傳所有生成的 CSV 文件
