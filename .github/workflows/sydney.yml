@@ -2,8 +2,8 @@ name: Run Python Scripts Automatically in Pairs
 
 on:
   schedule:
-    # 每日台灣時間13:00
-    - cron: '0 5 * * *'  # 注意: GitHub Actions 使用 UTC 時間，台灣時間早上13:00相當於 UTC 5:00
+    # 每日台灣時間 13:00
+    - cron: '0 10 * * *'  # GitHub Actions 使用 UTC 時間
 
 jobs:
   run-scripts:
